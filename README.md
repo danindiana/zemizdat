@@ -227,7 +227,7 @@ zemizdat/
 ├── README.md                       ← you are here
 ├── MISSION.md                      original brief (ZEMIZDAT-ARGON-1.0)
 ├── STATE.json                      machine-readable status, verdicts, open items
-├── diagrams/                       10 diagrams (.dot source + .png + .svg)
+├── diagrams/                       12 diagrams (.dot source + .png + .svg)
 ├── 01_formal_model/                system definition, invariants I1–I10, liveness, impossibility A–J
 ├── 02_candidate_architectures/     broadcast, pairwise, hybrid, store-carry-forward,
 │                                   comparison + verdicts, prior-art survey
@@ -241,6 +241,7 @@ zemizdat/
 │   ├── scripts/                    airtime_model.py, sync_costs.py, xor_digest_attack.py
 │   └── results/                    their JSON outputs
 ├── 05_hardware/                    UNO R4 WiFi, ESP32-S3, nRF52840, battery, BOM, dev boards
+│   └── zb1/                        ZB-1 board design: spec, pinmap, BOM, Arduino variant, bring-up sketch
 ├── 06_simulation/                  simulator.py, run_experiments.py, analyze.py,
 │                                   tests/, configs/, results/ (runs.jsonl, summary.md, figures)
 ├── 07_adversarial_review/          threat model, 15 counterexamples, failure matrix, mitigations
@@ -294,7 +295,7 @@ cd ../diagrams && for f in *.dot; do dot -Tpng -Gdpi=160 "$f" -o "${f%.dot}.png"
 | Option | Verdict | Why |
 |---|---|---|
 | Arduino UNO R4 WiFi | **reject for production**; bench helper | 32 KB SRAM on the RA4M1 and no radio; its ESP32-S3 can be flashed directly, and the RA4M1 can drive power-cut tests |
-| ESP32-S3 | **conditional** (prototype) | fits easily; Bluetooth receive current still unknown — likely tens of mA |
+| ESP32-S3 | **conditional** (prototype) | fits easily; module datasheet gives BLE receive at 93 mA (peak), so ~2 days on 2000 mAh in a crowd |
 | nRF52840 + 8 MB SPI NOR | **conditional** (production candidate) | radio ≈ 6.3 mA receive / 6.4 mA transmit at 0 dBm (datasheet); runs directly from a Li-ion cell |
 | nRF54L15 | unresolved | datasheet figures not yet reviewed |
 
@@ -302,6 +303,23 @@ cd ../diagrams && for f in *.dot; do dot -Tpng -Gdpi=160 "$f" -o "${f%.dot}.png"
   Best value is the Seeed XIAO nRF52840.
 * Battery arithmetic, clearly marked as estimates:
   [`05_hardware/battery_budget.md`](05_hardware/battery_budget.md).
+
+### ZB-1 development board (design, not yet built)
+
+[`05_hardware/zb1/`](05_hardware/zb1/README.md) is a purpose-built Feather-size board:
+
+* ESP32-S3-MINI-1-N8 (BLE 5 extended advertising, Wi-Fi, native USB, 8 MB NOR for the pamphlet log);
+* USB-C LiPo charging (BQ21040) with a load-sharing power path and a 2 µA-Iq LDO;
+* a power-switched 4-bit microSD slot (SDSC/SDHC/SDXC up to 2 TB; exFAT via SdFat or FAT32 reformat);
+* test hooks for energy (E6) and power-cut (E7) experiments;
+* ≈ $10–13 at qty 100 [estimate].
+
+It is programmable from the Arduino IDE: a `boards.txt` entry and variant are included, and the
+bring-up sketch (anonymous extended advertising + passive scan through `zm_core.c`) compiles.
+Because ESP32-S3 BLE receive costs 93 mA versus 6.26 mA on the nRF52840, the design document
+recommends an nRF52840-based ZB-2 for a pocket device.
+
+<img src="diagrams/11_zb1_block_diagram.png" alt="ZB-1 block diagram" width="100%">
 
 ## 9. Related projects
 
@@ -372,6 +390,8 @@ All diagrams are in [`diagrams/`](diagrams) as editable Graphviz `.dot`, plus `.
 | 08 | `08_threats_mitigations` | attack → mitigation → residual risk with evidence |
 | 09 | `09_research_pipeline` | how this repo was produced and what comes next |
 | 10 | `10_simulated_results` | headline simulated numbers (explicitly not measurements) |
+| 11 | `11_zb1_block_diagram` | ZB-1 development board blocks and buses |
+| 12 | `12_zb1_power_tree` | ZB-1 charger, power path, rails and battery budget |
 
 ## 13. Status, licence, provenance
 

@@ -1,0 +1,33 @@
+digraph zb1_power {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=LR, nodesep=0.4, ranksep=0.8,
+           label="ZB-1 power tree and budget (BLE RX 93 mA from the ESP32-S3-MINI-1 datasheet dominates everything)"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.22,0.14", fillcolor="#161b22"];
+    edge  [color="#d29922", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.8, arrowsize=0.8, fontsize=11];
+
+    vbus [label="VBUS 5 V\nUSB-C", color="#d29922"];
+    chg  [label="BQ21040\nCC/CV 4.2 V, ISET ~500 mA\nTS (10k or NTC), /CHG LED", color="#d29922", fillcolor="#2d2410"];
+    cell [label="LiPo 3.0-4.2 V\n(2000 mAh reference)", color="#d29922"];
+    prot [label="DW01A + FS8205\n(optional, if cell\nhas no PCM)", color="#8b949e", style="filled,rounded,dashed"];
+    d1   [label="Schottky D1\nVBUS -> VSYS", color="#d29922"];
+    q1   [label="PMOS Q1\nVBAT -> VSYS\n(gate = VBUS, off on USB)", color="#d29922"];
+    vsys [label="VSYS\n22 uF", shape=circle, color="#d29922", fillcolor="#2d2410"];
+    ldo  [label="RT9080-33\n3.3 V 600 mA, Iq 2 uA\nEN: 1M pull-up + TP_EN", color="#d29922", fillcolor="#2d2410"];
+    sj1  [label="SJ1\n(cut -> ammeter)", shape=note, color="#d29922", fillcolor="#1f2937"];
+    mod  [label="ESP32-S3 module\nBLE RX 93 mA | TX 0 dBm 189 mA\nlight-sleep 240 uA | deep 7-8 uA", color="#58a6ff", fillcolor="#13294d"];
+    sdsw [label="TPS22917\nON = IO21", color="#d29922"];
+    sd   [label="microSD\n~0.1-1 mA idle,\n50-100 mA write bursts\n(off unless archiving)", color="#3fb950", fillcolor="#12261a"];
+    div  [label="1M/1M divider\n~2 uA -> IO2", color="#8b949e"];
+
+    vbus -> chg -> cell [label="charge"];
+    cell -> prot [dir=both, style=dashed, color="#8b949e"];
+    vbus -> d1 -> vsys;
+    cell -> q1 -> vsys;
+    vsys -> ldo [label="3.0-5 V"];
+    ldo -> sj1 [label="3V3"]; sj1 -> mod;
+    ldo -> sdsw -> sd;
+    cell -> div [color="#8b949e"];
+
+    budget [shape=note, color="#f85149", fillcolor="#2d1214", fontsize=12,
+            label="Budget [estimate; E6 must measure]\nusable = 2000 mAh x 0.8 x 0.8 = 1280 mAh\n\ncrowd, 30 % scan, light-sleep between windows:\n 0.30 x 93 + TX ~1.4 + misc ~0.5 = ~30 mA -> ~43 h\ncrowd, Arduino default (CPU awake @80 MHz):\n ~50 mA -> ~26 h\nalone, 5 % idle scan, light-sleep:\n ~5 mA -> ~11 days\n\nnRF52840 for comparison: RX 6.26 mA -> ~23 days in crowd"];
+    mod -> budget [style=dashed, color="#f85149", arrowhead=none];
+}

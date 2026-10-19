@@ -33,7 +33,12 @@ They are not quotes. Specs are from those listings unless marked *(unverified)*.
 * **LoRa and GPS on the T-Echo and T114 are not used by ZEMIZDAT.** Leave GPS physically disabled. A location receiver on a privacy device is a liability, and LoRa would be a separate design question.
 * **2 MB of flash caps a prototype at roughly 1 800 pamphlets.** That is enough for every planned experiment. The 3 000-pamphlet scenario needs 8 MB: the DKs or an add-on SPI NOR.
 * **Same chip, different board.** Energy numbers measured on DKs (debugger circuitry, LEDs) need re-measuring on the XIAO or a custom board before any battery claim.
-* **ESP32-S3 BLE receive current is still unknown.** Measure it on the DevKitC or XIAO before committing more ESP32 hardware (E6 rule in `esp32.md`).
+* **ESP32-S3 BLE receive current:** the module datasheet gives 93 mA (peak). Measure the average on the DevKitC or XIAO before committing more ESP32 hardware (E6 rule in `esp32.md`).
+
+## Custom board
+
+For a board built around ZEMIZDAT's needs (charger, power-switched microSD, E6/E7 test
+hooks, Arduino variant), see the ZB-1 design in [`zb1/README.md`](zb1/README.md).
 
 ## Suggested first order (Phase 1 + sniffer, ≈ US$110–130 + cells)
 

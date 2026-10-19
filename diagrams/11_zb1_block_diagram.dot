@@ -1,0 +1,42 @@
+digraph zb1_block {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=LR, nodesep=0.35, ranksep=0.7,
+           label="ZB-1 block diagram: ESP32-S3-MINI-1-N8 Feather-format ZEMIZDAT node (50.8 x 22.9 mm)"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.22,0.14", fillcolor="#161b22"];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.6, arrowsize=0.8, fontsize=11];
+
+    usb  [label="USB-C (sink)\n5.1k CC pull-downs", color="#d29922"];
+    esd  [label="USBLC6-2SC6\nESD", color="#d29922"];
+    bat  [label="1-cell LiPo\nJST-PH\n(+ optional DW01A/FS8205)", color="#d29922"];
+    pwr  [label="power: BQ21040 charger\nload-sharing path\nRT9080 3.3 V LDO\n(see diagram 12)", color="#d29922", fillcolor="#2d2410"];
+
+    subgraph cluster_mod { label="ESP32-S3-MINI-1-N8"; fontcolor="#58a6ff"; color="#58a6ff"; style="rounded";
+        mcu  [label="ESP32-S3\nXtensa LX7 x2 @ 80 MHz\n512 KB SRAM", color="#58a6ff", fillcolor="#13294d"];
+        nor  [label="8 MB quad NOR flash\n= primary pamphlet log\n(crash-safe, spec §storage)", color="#3fb950", fillcolor="#12261a"];
+        rf   [label="BLE 5 (1M/2M/Coded, ext adv)\n+ Wi-Fi 4\nPCB antenna", color="#39c5cf", fillcolor="#0d2e2e"];
+        mcu -> nor [dir=both]; mcu -> rf [dir=both];
+    }
+    keep [label="antenna keep-out\nboard edge, no copper\nall layers", shape=note, color="#f85149", fillcolor="#2d1214"];
+    rf -> keep [style=dashed, color="#f85149", arrowhead=none];
+
+    xtal [label="32.768 kHz crystal\nIO15/IO16\nBLE sleep clock", color="#bc8cff"];
+    sw   [label="TPS22917\nSD power switch\nIO21", color="#d29922"];
+    sd   [label="microSD push-push\n4-bit SDMMC IO9-14\ncard detect IO26\nSDSC/SDHC/SDXC", color="#3fb950", fillcolor="#12261a"];
+    vb   [label="VBAT 1M/1M divider\nIO2 (ADC1)", color="#d29922"];
+    ui   [label="RESET + BOOT buttons\nuser LED IO47\ncharge LED", color="#8b949e"];
+    qt   [label="STEMMA-QT I2C\nIO8/IO18\n(opt. MAX17048)", color="#8b949e"];
+    hdr  [label="Feather headers\nA0-A4, D5-D13, SPI, UART", color="#8b949e"];
+    sj   [label="SJ1 current jumper\nTP_EN power-cut pad\n(E6 / E7 test hooks)", shape=note, color="#d29922", fillcolor="#1f2937"];
+
+    usb -> esd [label="D+/D-", color="#d29922"];
+    esd -> mcu [label="native USB CDC/JTAG", color="#d29922"];
+    usb -> pwr [label="VBUS", color="#d29922"];
+    bat -> pwr [dir=both, label="VBAT", color="#d29922"];
+    pwr -> mcu [label="3V3", color="#d29922"];
+    pwr -> sw [label="3V3", color="#d29922"];
+    sw -> sd [label="SD_VDD", color="#d29922"];
+    mcu -> sd [dir=both, label="SDMMC", color="#3fb950"];
+    xtal -> mcu [color="#bc8cff"];
+    bat -> vb -> mcu [color="#d29922"];
+    mcu -> ui [dir=both]; mcu -> qt [dir=both]; mcu -> hdr [dir=both];
+    sj -> pwr [style=dashed, arrowhead=none, color="#d29922"];
+}

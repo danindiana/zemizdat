@@ -29,11 +29,16 @@ t_event (3 primaries + 3 AUX on 2M) ≈ 3 × 136 µs + 3 × 1 064 µs = 3.6 ms
 | ESP32-S3, crowd, BLE RX **assumed 80 mA** | — | 32 mA | ≈ 44 h (2 d) |
 | ESP32-S3, alone, 5 % scan, **assumed 60 mA** RX | — | 6 mA | ≈ 240 h (10 d) |
 
+**Update (2026-10-19):** the ESP32-S3-MINI-1 module datasheet gives BLE RX = **93 mA** and
+TX = 189 mA at 0 dBm (peak values, 3.3 V). With 93 mA the crowd case is ≈ 30 mA → ≈ 43 h, or
+≈ 50 mA → ≈ 26 h if the CPU is not light-sleeping between scan windows. See
+[`zb1/README.md`](zb1/README.md) §3. E6 still has to measure the average.
+
 ## What dominates
 
 1. **Scan duty × receive current.** Transmission is < 2 % of the nRF52840 budget in the crowd
    case; listening is > 70 %. LISTEN therefore costs about the same energy as COURIER.
-2. The ESP32-S3 BLE receive current is the single most important unknown (E6).
+2. The ESP32-S3 BLE receive current (93 mA peak per datasheet) dominates its budget; E6 must measure the average.
 3. Simulation energy outputs (`energy_mAh_*` in results) count only radio-on time × nRF52840
    datasheet currents; they are comparative across strategies, not predictions of battery life.
 

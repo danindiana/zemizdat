@@ -1,0 +1,75 @@
+# ZEMIZDAT ZB-1 board entry for arduino-esp32.
+# Install: append this block to <arduino-esp32>/boards.txt and copy variants/zemizdat_zb1/
+# into <arduino-esp32>/variants/ (or use boards.local.txt next to boards.txt).
+# Until then, select "ESP32S3 Dev Module" with: USB CDC On Boot = Enabled, Flash Size = 8MB,
+# PSRAM = Disabled, Partition = "8M with spiffs" -- and include firmware/zb1_bringup/zb1_board.h.
+
+zemizdat_zb1.name=ZEMIZDAT ZB-1 (ESP32-S3-MINI-1-N8)
+zemizdat_zb1.vid.0=0x303A
+zemizdat_zb1.pid.0=0x1001
+
+zemizdat_zb1.bootloader.tool=esptool_py
+zemizdat_zb1.bootloader.tool.default=esptool_py
+zemizdat_zb1.upload.tool=esptool_py
+zemizdat_zb1.upload.tool.default=esptool_py
+zemizdat_zb1.upload.tool.network=esp_ota
+zemizdat_zb1.upload.maximum_size=3342336
+zemizdat_zb1.upload.maximum_data_size=327680
+zemizdat_zb1.upload.flags=
+zemizdat_zb1.upload.extra_flags=
+zemizdat_zb1.upload.use_1200bps_touch=false
+zemizdat_zb1.upload.wait_for_upload_port=false
+zemizdat_zb1.upload.speed=921600
+
+zemizdat_zb1.serial.disableDTR=false
+zemizdat_zb1.serial.disableRTS=false
+
+zemizdat_zb1.build.tarch=xtensa
+zemizdat_zb1.build.bootloader_addr=0x0
+zemizdat_zb1.build.target=esp32s3
+zemizdat_zb1.build.mcu=esp32s3
+zemizdat_zb1.build.core=esp32
+zemizdat_zb1.build.variant=zemizdat_zb1
+zemizdat_zb1.build.board=ZEMIZDAT_ZB1
+
+zemizdat_zb1.build.usb_mode=1
+zemizdat_zb1.build.cdc_on_boot=1
+zemizdat_zb1.build.msc_on_boot=0
+zemizdat_zb1.build.dfu_on_boot=0
+zemizdat_zb1.build.f_cpu=80000000L
+zemizdat_zb1.build.flash_size=8MB
+zemizdat_zb1.build.flash_freq=80m
+zemizdat_zb1.build.flash_mode=dio
+zemizdat_zb1.build.boot=qio
+zemizdat_zb1.build.boot_freq=80m
+zemizdat_zb1.build.partitions=default_8MB
+zemizdat_zb1.build.defines=-DBOARD_HAS_SDMMC
+zemizdat_zb1.build.loop_core=-DARDUINO_RUNNING_CORE=1
+zemizdat_zb1.build.event_core=-DARDUINO_EVENT_RUNNING_CORE=1
+zemizdat_zb1.build.psram_type=qspi
+zemizdat_zb1.build.memory_type={build.boot}_{build.psram_type}
+
+# 80 MHz is the default: BLE scanning does not need 240 MHz and it saves ~10 mA.
+zemizdat_zb1.menu.CPUFreq.80=80MHz
+zemizdat_zb1.menu.CPUFreq.80.build.f_cpu=80000000L
+zemizdat_zb1.menu.CPUFreq.160=160MHz
+zemizdat_zb1.menu.CPUFreq.160.build.f_cpu=160000000L
+zemizdat_zb1.menu.CPUFreq.240=240MHz
+zemizdat_zb1.menu.CPUFreq.240.build.f_cpu=240000000L
+
+zemizdat_zb1.menu.UploadSpeed.921600=921600
+zemizdat_zb1.menu.UploadSpeed.921600.upload.speed=921600
+zemizdat_zb1.menu.UploadSpeed.115200=115200
+zemizdat_zb1.menu.UploadSpeed.115200.upload.speed=115200
+
+zemizdat_zb1.menu.DebugLevel.none=None
+zemizdat_zb1.menu.DebugLevel.none.build.code_debug=0
+zemizdat_zb1.menu.DebugLevel.info=Info
+zemizdat_zb1.menu.DebugLevel.info.build.code_debug=3
+zemizdat_zb1.menu.DebugLevel.verbose=Verbose
+zemizdat_zb1.menu.DebugLevel.verbose.build.code_debug=5
+
+zemizdat_zb1.menu.EraseFlash.none=Disabled
+zemizdat_zb1.menu.EraseFlash.none.upload.erase_cmd=
+zemizdat_zb1.menu.EraseFlash.all=Enabled
+zemizdat_zb1.menu.EraseFlash.all.upload.erase_cmd=-e
