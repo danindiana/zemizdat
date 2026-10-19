@@ -1,0 +1,20 @@
+digraph content_identity {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=LR, label="Content identity: a depth-1 hash list makes every 220-byte chunk verifiable on arrival"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18", fillcolor="#161b22"];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.6, arrowsize=0.9];
+    cpo [label="Canonical Pamphlet Object\n12-B header ‖ TLVs ‖ UTF-8 body\n≤ 4 064 B", color="#3fb950"];
+    subgraph cluster_chunks { label="220-byte chunks"; fontcolor="#3fb950"; color="#3fb950"; style="rounded";
+        c0 [label="chunk 0"]; c1 [label="chunk 1"]; cn [label="… chunk n-1\n(n ≤ 19)"]; }
+    subgraph cluster_leaves { label="leaf_k = SHA-256(00 ‖ k ‖ chunk_k)[0:8]"; fontcolor="#58a6ff"; color="#58a6ff"; style="rounded";
+        l0 [label="leaf 0", color="#58a6ff"]; l1 [label="leaf 1", color="#58a6ff"]; ln [label="leaf n-1", color="#58a6ff"]; }
+    id [label="id = SHA-256(01 ‖ u16 len ‖ leaves)\nsid64 = id[0:8]\nbucket = id[0] >> 2", color="#58a6ff", fillcolor="#0d3a6b"];
+    man [label="MANIFEST frame\n6 + 8n bytes\n(receiver recomputes id)", color="#39c5cf", fillcolor="#0d2e2e"];
+    frag [label="FRAG frames\n16-B header (sid64, idx, total, len)\n+ chunk", color="#39c5cf", fillcolor="#0d2e2e"];
+    cpo -> c0; cpo -> c1; cpo -> cn;
+    c0 -> l0; c1 -> l1; cn -> ln;
+    l0 -> id; l1 -> id; ln -> id;
+    l0 -> man [color="#39c5cf"]; l1 -> man [color="#39c5cf"]; ln -> man [color="#39c5cf"];
+    c0 -> frag [color="#39c5cf"]; c1 -> frag [color="#39c5cf"]; cn -> frag [color="#39c5cf"];
+    id -> frag [label="sid64 in header", color="#58a6ff"];
+    note [label="Single-chunk objects (≤ 208-B body):\nno manifest — the one FRAG is self-certifying.\n1 KiB pamphlet = 5 chunks + 1 manifest = 6 frames.", shape=note, color="#d29922", fillcolor="#1f2937"];
+}

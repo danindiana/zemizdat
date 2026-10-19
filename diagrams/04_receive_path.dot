@@ -1,0 +1,29 @@
+digraph receive_path {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=TB, label="Receive path (zm_core.c): every check happens before any state change"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18", fillcolor="#161b22"];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.6, arrowsize=0.9];
+    rx [label="radio frame (≤ 236 B)", color="#39c5cf", fillcolor="#0d2e2e"];
+    env [label="length ≤ 236? magic 0x5A?\nversion nibble = 1?"];
+    typ [label="type?", shape=diamond, style="filled", fillcolor="#161b22"];
+    have [label="sid64 already stored\nor user-tombstoned?", shape=diamond, style="filled", fillcolor="#161b22"];
+    heard [label="if bytes equal own copy:\nheard[p] ← now\n(suppression signal)", color="#58a6ff"];
+    man [label="MANIFEST: compute id from leaves,\nopen slot (≤ 8; refuse rather than thrash)", color="#3fb950"];
+    fr [label="FRAG: total = 1 → self-certify\nelse slot + manifest required", color="#3fb950"];
+    leaf [label="leaf(idx, chunk) ==\nmanifest.leaf[idx] ?", shape=diamond, style="filled", fillcolor="#161b22"];
+    put [label="store chunk in slot", color="#3fb950"];
+    done [label="all chunks? → validate CPO\n(header, TLVs, UTF-8)", color="#3fb950"];
+    adm [label="admission:\n60/min token bucket, capacity", color="#d29922"];
+    commit [label="two-phase NOR commit\n+ read-back verify → index", color="#3fb950", fillcolor="#1f2937"];
+    drop [label="drop silently\n(count)", color="#f85149"];
+    rx -> env -> typ;
+    env -> drop [label="fail", color="#f85149"];
+    typ -> have [label="FRAG / MANIFEST"];
+    typ -> drop [label="unknown", color="#f85149"];
+    have -> heard [label="yes", color="#58a6ff"];
+    have -> man [label="no, MANIFEST"];
+    have -> fr [label="no, FRAG"];
+    fr -> leaf; leaf -> put [label="match"]; leaf -> drop [label="forged", color="#f85149"];
+    put -> done -> adm -> commit;
+    adm -> drop [label="refused", color="#f85149"];
+    ev [label="Executed: 2 000 000 fuzzed frames under ASan/UBSan,\n0 memory errors, 0 invalid completions;\nC and Python agree byte-for-byte on vectors", shape=note, color="#d29922", fillcolor="#1f2937"];
+}

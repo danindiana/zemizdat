@@ -1,0 +1,29 @@
+digraph threats {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=LR, label="Threats → mitigations → what remains (from 07_adversarial_review)"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18", fillcolor="#161b22"];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.6, arrowsize=0.9];
+    subgraph cluster_t { label="attacks"; fontcolor="#f85149"; color="#f85149"; style="rounded";
+        t1 [label="malformed / forged frames", color="#f85149"]; t2 [label="junk flood into storage", color="#f85149"];
+        t3 [label="channel flooding / jamming", color="#f85149"]; t4 [label="forged suppression headers", color="#f85149"];
+        t5 [label="Sybil identities", color="#f85149"]; t6 [label="remove bridge couriers", color="#f85149"];
+        t7 [label="passive observer / DF", color="#f85149"]; t8 [label="compromised release keys", color="#f85149"]; }
+    subgraph cluster_m { label="mitigations"; fontcolor="#3fb950"; color="#3fb950"; style="rounded";
+        m1 [label="strict parser, per-chunk leaves, no heap", color="#3fb950"];
+        m2 [label="60/min admission quota, pinning", color="#3fb950"];
+        m3 [label="none in software (detect, warn)", color="#3fb950"];
+        m4 [label="verified suppression (compare bytes)", color="#3fb950"];
+        m5 [label="nothing counts peers", color="#3fb950"];
+        m6 [label="many independent forwarding movers", color="#3fb950"];
+        m7 [label="anonymous adv, LISTEN mode,\nno hop count, release-in-crowd", color="#3fb950"];
+        m8 [label="t-of-n signatures + owner button,\nreproducible builds", color="#3fb950"]; }
+    subgraph cluster_r { label="residual (evidence)"; fontcolor="#d29922"; color="#d29922"; style="rounded";
+        r1 [label="none observed (fuzz, executed)", color="#d29922"];
+        r2 [label="bounded damage: 0.82–0.88 vs 0.24–0.53 naive (sim)", color="#d29922"];
+        r3 [label="local outage: 20 % flooders → 0.29 (sim)", color="#d29922"];
+        r4 [label="no measurable effect at N=500 (sim)", color="#d29922"];
+        r5 [label="none", color="#d29922"];
+        r6 [label="partition: each side keeps its half (sim)", color="#d29922"];
+        r7 [label="couriers fingerprintable by content", color="#d29922"];
+        r8 [label="owners who accept fast", color="#d29922"]; }
+    t1->m1->r1; t2->m2->r2; t3->m3->r3; t4->m4->r4; t5->m5->r5; t6->m6->r6; t7->m7->r7; t8->m8->r8;
+}

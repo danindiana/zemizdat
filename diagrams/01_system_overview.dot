@@ -1,0 +1,32 @@
+digraph system_overview {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=LR, label="ZEMIZDAT system overview: connectionless broadcast carousel, no servers, no identities"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18", fillcolor="#161b22"];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.6, arrowsize=0.9];
+    subgraph cluster_crowd { label="Nearby devices (one interference domain)"; fontcolor="#58a6ff"; color="#58a6ff"; style="rounded";
+        courier [label="COURIER\nRX STORE ORIG FWD\ncarousel over whole library", color="#58a6ff", fillcolor="#13294d"];
+        exchange [label="EXCHANGE\nRX STORE ORIG\nsends own pamphlets only", color="#58a6ff", fillcolor="#13294d"];
+        listen [label="LISTEN\nRX STORE\nnever transmits", color="#3fb950", fillcolor="#1f2937"];
+    }
+    air [label="BLE 5 extended advertising\nanonymous, non-connectable\n3-PDU chained events", shape=ellipse, color="#39c5cf", fillcolor="#0d2e2e"];
+    courier -> air [color="#58a6ff", label="frames"];
+    exchange -> air [color="#58a6ff"];
+    air -> courier [color="#39c5cf", label="overhear\n(verified suppression)"];
+    air -> listen [color="#3fb950", label="passive scan"];
+    air -> exchange [color="#39c5cf"];
+    subgraph cluster_dev { label="Inside every device"; fontcolor="#3fb950"; color="#3fb950"; style="rounded";
+        parse [label="strict parser\n+ per-chunk leaf check"];
+        store [label="crash-safe NOR log\n(sid64 index in RAM)", color="#3fb950"];
+        sched [label="scheduler\ncrowd mode / burst mode", color="#58a6ff"];
+        budgets [label="local budgets\nadmission 60/min, TX cap,\nbattery thresholds", color="#d29922"];
+        parse -> store -> sched; budgets -> store [style=dashed]; budgets -> sched [style=dashed];
+    }
+    listen -> parse [style=dashed, color="#30363d", arrowhead=none];
+    walk [label="people walk\n(store-carry-forward)", shape=note, color="#d29922", fillcolor="#1f2937"];
+    courier -> walk [color="#d29922", style=dashed];
+    walk -> other [color="#d29922", style=dashed];
+    other [label="another room / district", color="#d29922"];
+    subgraph cluster_gov { label="Governance plane (separate, never needed for data plane)"; fontcolor="#bc8cff"; color="#bc8cff"; style="rounded,dashed";
+        gov [label="threshold-signed firmware\n+ owner button consent\nUSB only, no kill switch", color="#bc8cff"];
+    }
+    gov -> sched [style=dotted, color="#bc8cff", label="updates firmware only"];
+}

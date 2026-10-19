@@ -1,0 +1,20 @@
+digraph carousel_scheduler {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=LR, label="Carousel scheduler: crowd mode shares airtime, burst mode spends contact time"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18", fillcolor="#161b22"];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.6, arrowsize=0.9];
+    est [label="estimate transmitters in range\nfrom decoded event rate\n(R̂, × κ_INT correction)", color="#58a6ff"];
+    dec [label="≤ 8 transmitters?", shape=diamond, style="filled", fillcolor="#161b22"];
+    subgraph cluster_crowd { label="Crowd mode"; fontcolor="#58a6ff"; color="#58a6ff"; style="rounded";
+        rc [label="λ = R_TARGET / n_tx\nR_TARGET ≈ 1 739 events/s per domain", color="#58a6ff", fillcolor="#13294d"];
+        sup [label="suppressed pick → skip event\n(frees shared airtime)", color="#58a6ff"]; }
+    subgraph cluster_burst { label="Burst mode"; fontcolor="#3fb950"; color="#3fb950"; style="rounded";
+        b1 [label="scan duty 1.0\nλ cap 100 events/s", color="#3fb950"];
+        b2 [label="suppressed pick → refill\nwith another item", color="#3fb950"]; }
+    pick [label="pick item ∝ (ε + demand) × (1 + age since last heard)\nskip items sent by me < 2 s ago", color="#d29922"];
+    ev [label="send event: 3 frames from cyclic window\n[manifest, c0 … c(n-1)] at random offset", color="#39c5cf", fillcolor="#0d2e2e"];
+    est -> dec; dec -> rc [label="no"]; dec -> b1 [label="yes"];
+    rc -> pick; b1 -> pick; pick -> sup [style=dashed]; pick -> b2 [style=dashed];
+    pick -> ev;
+    risk [label="OPEN RISK (Q1): a device decodes only part of the\ninterference it suffers. Counting decodable neighbours only:\n1 000-device hall falls 0.82 → 0.47 [simulated]", shape=note, color="#f85149", fillcolor="#161b22"];
+    est -> risk [style=dotted, color="#f85149", arrowhead=none];
+}

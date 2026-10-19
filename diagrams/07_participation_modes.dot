@@ -1,0 +1,13 @@
+digraph participation_modes {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=LR, label="Participation: four permission bits, three presets, one state machine"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18", fillcolor="#161b22"];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.6, arrowsize=0.9];
+    subgraph cluster_bits { label="permission bits (owner-set)"; fontcolor="#bc8cff"; color="#bc8cff"; style="rounded,dashed";
+        RX [color="#3fb950"]; STORE [color="#3fb950"]; ORIG [color="#58a6ff"]; FWD [color="#58a6ff"]; }
+    L [label="LISTEN\nnever transmits · library private\npassive scan only", color="#3fb950", fillcolor="#1f2937"];
+    E [label="EXCHANGE\nbroadcasts own pamphlets\ndoes not forward others", color="#58a6ff", fillcolor="#13294d"];
+    C [label="COURIER\ncarousel over everything held\nbridges rooms and districts", color="#58a6ff", fillcolor="#0d3a6b"];
+    RX -> L; STORE -> L; RX -> E; STORE -> E; ORIG -> E; RX -> C; STORE -> C; ORIG -> C; FWD -> C;
+    R [label="RELAY (proposed)\nREJECTED: no benefit inside a shared\ninterference domain; = COURIER", color="#f85149", style="filled,rounded,dashed"];
+    priv [label="privacy trade-off: forwarding discloses what you carry;\nonly LISTEN is library-private", shape=note, color="#d29922", fillcolor="#1f2937"];
+}

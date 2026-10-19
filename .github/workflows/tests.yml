@@ -1,0 +1,21 @@
+name: tests
+on:
+  push:
+  pull_request:
+jobs:
+  reference-and-sim:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "numpy>=2" matplotlib pytest
+      - name: Python reference (codec, reassembly, every-byte power cuts)
+        run: cd 03_protocol/reference_py && python -m pytest -q
+      - name: C receive path (vectors + 2M-frame fuzz under ASan/UBSan)
+        run: cd 03_protocol/reference_c && make test
+      - name: Simulator invariants
+        run: cd 06_simulation && python -m pytest -q tests
+      - name: Analytical scripts
+        run: cd 04_mathematical_analysis/scripts && python airtime_model.py && python sync_costs.py

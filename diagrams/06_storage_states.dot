@@ -1,0 +1,19 @@
+digraph storage_states {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=LR, label="Record state machine on NOR flash (bits only go 1→0): crash-safe at every byte"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18", fillcolor="#161b22"];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.6, arrowsize=0.9];
+    empty [label="FFFF\nempty"]; writing [label="FFFE\nwriting header+payload", color="#d29922"];
+    written [label="FFFC\npayload written", color="#d29922"];
+    committed [label="FFF8\ncommitted (verified)", color="#3fb950", fillcolor="#1f2937"];
+    dead [label="0000\nkilled torn write", color="#f85149"];
+    deleted [label="dead flag ≠ FFFF\nuser delete (separate field)", color="#bc8cff"];
+    empty -> writing [label="program state"]; writing -> written [label="program payload"];
+    written -> committed [label="read-back hash ok"]; written -> dead [label="mismatch", color="#f85149"];
+    writing -> dead [label="power cut → mount", color="#f85149", style=dashed];
+    committed -> deleted [label="delete", color="#bc8cff"];
+    subgraph cluster_mount { label="mount()"; fontcolor="#58a6ff"; color="#58a6ff"; style="rounded";
+        m1 [label="scan sectors in sequence order;\nre-hash every committed record", color="#58a6ff"];
+        m2 [label="torn record = last write in sector:\nkill it, close the sector", color="#58a6ff"];
+        m3 [label="no erased spare → interrupted GC:\nfinish it or roll the head back", color="#58a6ff"]; m1 -> m2 -> m3; }
+    bug [label="Found by the exhaustive power-cut test:\nreusing the state field for deletes let a torn delete\nhide every later record in the sector → separate dead flag", shape=note, color="#d29922", fillcolor="#1f2937"];
+}

@@ -1,0 +1,16 @@
+digraph protocol_stack {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=TB, label="ZEMIZDAT-PROTO-1.0 layers (top = user, bottom = radio)"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18", fillcolor="#161b22"];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.6, arrowsize=0.9];
+    ui [label="UI: read / write / pin / delete pamphlets; choose LISTEN · EXCHANGE · COURIER", color="#bc8cff"];
+    sched [label="Carousel scheduler: rate control (G_p ≈ 0.25, G_a ≈ 0.15), burst mode (≤ 8 tx),\nleast-recently-heard weighting, I_REP = 2 s, verified suppression", color="#58a6ff", fillcolor="#13294d"];
+    adm [label="Admission & budgets: 60 admissions/min, capacity, TX cap, battery 20 % / 10 %", color="#d29922"];
+    store [label="Storage: 4 KiB sectors, 48-byte record header, FFFF→FFFE→FFFC→FFF8, separate delete flag, spare-sector GC", color="#3fb950"];
+    reasm [label="Reassembly: manifest → slot; chunk accepted only if leaf hash matches; ≤ 8 slots, 120 s timeout", color="#3fb950"];
+    ident [label="Identity: id = SHA-256(01 ‖ len ‖ leaf_0 … leaf_n), leaf_k = SHA-256(00 ‖ k ‖ chunk_k)[0:8]", color="#58a6ff"];
+    frames [label="Frames ≤ 236 B: FRAG 0x12 · MANIFEST 0x13 · SDB 0x11 (optional, off)", color="#39c5cf", fillcolor="#0d2e2e"];
+    radio [label="BLE 5: ADV_EXT_IND on 37/38/39 (136 µs) → AUX_ADV_IND + 2× AUX_CHAIN_IND on 2M PHY (1 064 µs each)", color="#39c5cf", fillcolor="#0d2e2e"];
+    ui -> sched -> adm -> store -> reasm -> ident -> frames -> radio [dir=both];
+    alt [label="ESP-NOW v2 (1 470 B)\nprototype alternative — UNRESOLVED", color="#f0883e", style="filled,rounded,dashed"];
+    frames -> alt [style=dashed, color="#f0883e"];
+}

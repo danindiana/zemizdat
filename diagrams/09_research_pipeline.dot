@@ -1,0 +1,17 @@
+digraph research_pipeline {
+    graph [bgcolor="#0d1117", fontname="Helvetica", fontcolor="#e6edf3", labelloc="t", fontsize=20, rankdir=LR, label="How this repository was produced, and what comes next"];
+    node  [fontname="Helvetica", fontcolor="#e6edf3", color="#30363d", style="filled,rounded", shape=box, penwidth=2, margin="0.25,0.18", fillcolor="#161b22"];
+    edge  [color="#8b949e", fontname="Helvetica", fontcolor="#adbac7", penwidth=1.6, arrowsize=0.9];
+    brief [label="mission brief\nZEMIZDAT-ARGON-1.0", color="#bc8cff"];
+    gem [label="Gemini run\n(no execution, truncated)", color="#f0883e"];
+    audit [label="audit: 21 issues\n(fabricated digest,\nleaky XOR beacon…)", color="#f0883e"];
+    model [label="formal model\nI1–I10, liveness,\nimpossibility A–J", color="#58a6ff"];
+    ref [label="reference code\nPython 31 tests\nC fuzz 2M frames", color="#3fb950"];
+    sim [label="simulator\n377 runs, groups A–H", color="#58a6ff", fillcolor="#13294d"];
+    adv [label="adversarial review\n15 counterexamples", color="#f85149"];
+    dec [label="architecture decision\nCONDITIONAL PROCEED", color="#d29922", fillcolor="#1f2937"];
+    e1 [label="NEXT: E1 + E2 on hardware\n2× ESP32-S3, 2× nRF52840", color="#39c5cf", fillcolor="#0d2e2e"];
+    brief -> gem -> audit -> model; brief -> model -> ref -> sim -> adv -> dec -> e1;
+    adv -> model [style=dashed, color="#bc8cff", label="design changes\n(burst mode, delete flag,\nno hop count, quota)"];
+    none [label="No hardware measurement exists yet.\nAll performance numbers are simulated or estimated.", shape=note, color="#f85149", fillcolor="#161b22"];
+}
