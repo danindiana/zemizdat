@@ -1,0 +1,52 @@
+{
+  "mission_id": "ZEMIZDAT-ARGON-1.0",
+  "date": "2026-10-19",
+  "project_maturity": "pre-prototype; architecture selected conditionally; no hardware built",
+  "environment": {
+    "hermes_archive_available": false,
+    "filesystem_write_available": true,
+    "code_execution_available": true,
+    "web_access": "search + fetch (datasheets/docs consulted, cited in 05_hardware)"
+  },
+  "executed_evidence": {
+    "python_reference_tests": "31 passed",
+    "c_reference": "8/8 vectors byte-identical to Python; 46/46 duplicates rejected; 2,000,000 fuzzed frames, 0 invalid completions, ASan+UBSan clean; sizeof(zm_rx)=17428 B at 4 slots",
+    "power_cut_tests": "every programmed byte and erase, including garbage collection, 3 seeds + 6 seeds sampled",
+    "simulator_tests": "14 passed",
+    "simulation_runs": 377,
+    "xor_digest_attack": "library recovered from one beacon: 100% at M=300, 97% at M=1000"
+  },
+  "verdicts": {
+    "A_fixed_rate_broadcast": "REJECT for crowds (0% at 3000 devices/hall, simulated)",
+    "B_pairwise_anti_entropy": "REJECT as primary (listeners always 0); CONDITIONAL as v2 courier sync",
+    "C_D_hybrid_carousel_store_carry_forward": "CONDITIONAL PROCEED (pending E1, E5, E6, E7)",
+    "E_standard_BLE_mesh": "REJECT",
+    "summary_beacons": "optional, off by default",
+    "RELAY_mode": "REJECT",
+    "ESP_NOW_link": "UNRESOLVED",
+    "erasure_network_coding": "REJECT for v1",
+    "H1_UNO_R4_WiFi": "REJECT for production; bench helper",
+    "H2_ESP32_S3": "CONDITIONAL PROCEED (prototype)",
+    "H3_nRF52840_SPI_NOR": "CONDITIONAL PROCEED (production candidate)",
+    "nRF54L15": "UNRESOLVED (datasheet not obtained)",
+    "governance_threshold_owner_consent": "PROCEED (design)"
+  },
+  "largest_open_risk": "Q1: rate-control observability of undecodable interference (simulated collapse 0.82 -> 0.47 at N=1000)",
+  "design_changes_found_by_testing": [
+    "separate delete flag in flash records (torn-delete data loss found by exhaustive power-cut test)",
+    "burst mode for sparse contacts (city simulation)",
+    "beacons off by default (cost budget in dense halls, no gain in sparse)",
+    "hop count removed (author disclosure)",
+    "per-item re-send interval I_REP",
+    "60/min admission quota; time-stratified eviction dropped"
+  ],
+  "next_action": "09_final/NEXT_ACTION.md: E1+E2 on 2x ESP32-S3 and 2x nRF52840",
+  "not_done": [
+    "any hardware experiment",
+    "on-target RAM/stack measurement",
+    "real mobility traces",
+    "simulation of RELAY doorway effect, Trickle-style idle backoff, staging-slot limits, beacon staleness",
+    "ESP-NOW simulation",
+    "price quotes"
+  ]
+}

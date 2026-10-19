@@ -1,0 +1,193 @@
+{
+ "constants": {
+  "TAU_P_us": 136.0,
+  "TAU_A_us": 1064.0,
+  "TAU_A_1M_us": 2120.0,
+  "N_SEC": 37,
+  "P_LOSS": 0.1
+ },
+ "chain_optimisation": [
+  {
+   "L": 1,
+   "R_opt": 3030,
+   "frames_per_s": 1004.8,
+   "Gp": 0.412,
+   "Ga": 0.087,
+   "aux_success": 0.756,
+   "primary_success": 0.439,
+   "kB_per_s": 221.1
+  },
+  {
+   "L": 2,
+   "R_opt": 2300,
+   "frames_per_s": 1437.0,
+   "Gp": 0.313,
+   "Ga": 0.132,
+   "aux_success": 0.691,
+   "primary_success": 0.535,
+   "kB_per_s": 316.1
+  },
+  {
+   "L": 3,
+   "R_opt": 1750,
+   "frames_per_s": 1525.3,
+   "Gp": 0.238,
+   "Ga": 0.151,
+   "aux_success": 0.665,
+   "primary_success": 0.621,
+   "kB_per_s": 335.6
+  },
+  {
+   "L": 4,
+   "R_opt": 1370,
+   "frames_per_s": 1469.6,
+   "Gp": 0.186,
+   "Ga": 0.158,
+   "aux_success": 0.657,
+   "primary_success": 0.689,
+   "kB_per_s": 323.3
+  },
+  {
+   "L": 6,
+   "R_opt": 910,
+   "frames_per_s": 1253.5,
+   "Gp": 0.124,
+   "Ga": 0.157,
+   "aux_success": 0.657,
+   "primary_success": 0.781,
+   "kB_per_s": 275.8
+  },
+  {
+   "L": 7,
+   "R_opt": 770,
+   "frames_per_s": 1146.6,
+   "Gp": 0.105,
+   "Ga": 0.155,
+   "aux_success": 0.66,
+   "primary_success": 0.811,
+   "kB_per_s": 252.2
+  }
+ ],
+ "targets": [
+  {
+   "L": 1,
+   "G_target": 0.1,
+   "R": 735,
+   "frames_per_event": 0.706,
+   "goodput_frames_s": 519
+  },
+  {
+   "L": 1,
+   "G_target": 0.2,
+   "R": 1471,
+   "frames_per_event": 0.554,
+   "goodput_frames_s": 815
+  },
+  {
+   "L": 1,
+   "G_target": 0.3,
+   "R": 2206,
+   "frames_per_event": 0.435,
+   "goodput_frames_s": 960
+  },
+  {
+   "L": 6,
+   "G_target": 0.1,
+   "R": 580,
+   "frames_per_event": 2.009,
+   "goodput_frames_s": 1164
+  },
+  {
+   "L": 6,
+   "G_target": 0.2,
+   "R": 1159,
+   "frames_per_event": 1.056,
+   "goodput_frames_s": 1224
+  },
+  {
+   "L": 6,
+   "G_target": 0.3,
+   "R": 1739,
+   "frames_per_event": 0.599,
+   "goodput_frames_s": 1042
+  }
+ ],
+ "unregulated_10Hz_L6": [
+  {
+   "N_tx": 10,
+   "Gp": 0.014,
+   "Ga": 0.017,
+   "frames_per_event": 3.6817,
+   "domain_frames_s": 368.2
+  },
+  {
+   "N_tx": 50,
+   "Gp": 0.068,
+   "Ga": 0.086,
+   "frames_per_event": 2.2104,
+   "domain_frames_s": 1105.2
+  },
+  {
+   "N_tx": 100,
+   "Gp": 0.136,
+   "Ga": 0.173,
+   "frames_per_event": 1.2492,
+   "domain_frames_s": 1249.2
+  },
+  {
+   "N_tx": 200,
+   "Gp": 0.272,
+   "Ga": 0.345,
+   "frames_per_event": 0.4734,
+   "domain_frames_s": 946.9
+  },
+  {
+   "N_tx": 500,
+   "Gp": 0.68,
+   "Ga": 0.863,
+   "frames_per_event": 0.049,
+   "domain_frames_s": 245.0
+  },
+  {
+   "N_tx": 1000,
+   "Gp": 1.36,
+   "Ga": 1.725,
+   "frames_per_event": 0.0019,
+   "domain_frames_s": 19.4
+  },
+  {
+   "N_tx": 3000,
+   "Gp": 4.08,
+   "Ga": 5.176,
+   "frames_per_event": 0.0,
+   "domain_frames_s": 0.0
+  },
+  {
+   "N_tx": 5000,
+   "Gp": 6.8,
+   "Ga": 8.627,
+   "frames_per_event": 0.0,
+   "domain_frames_s": 0.0
+  }
+ ],
+ "unregulated_peak_N": 100,
+ "auditorium_bound": {
+  "M": 3000,
+  "frames_per_pamphlet": 6,
+  "tiles": 30.0,
+  "domain_frames_s": 1253.5,
+  "per_receiver_frames_s_at_scan30": 12.5,
+  "ideal_seconds_no_redundancy": 1436,
+  "note": "every frame new to every receiver; real carousels add a coupon-collector factor"
+ },
+ "unicast": {
+  "total_bits": 76870368000,
+  "gemini_single_200kbps_hours": 106.8,
+  "data_channels_raw_Mbps": 74.0,
+  "effective_Mbps_assumed": 13.6,
+  "hours_at_effective": 1.57,
+  "broadcast_frames_needed": 540000.0,
+  "broadcast_bits_one_copy_per_tile": 768960000.0,
+  "broadcast_gain_factor": 100.0
+ }
+}

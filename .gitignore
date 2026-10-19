@@ -1,0 +1,4 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+03_protocol/reference_c/test_zm_core

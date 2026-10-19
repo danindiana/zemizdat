@@ -1,0 +1,4651 @@
+[
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 10,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 50,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 100,
+   "strategy": "ORACLE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 500,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 1000,
+   "strategy": "ORACLE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 3000,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 3000,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 3000,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 3000,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 3000,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 3000,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 3000,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 3000,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 3000,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 3000,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 5000,
+   "strategy": "BCAST",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 5000,
+   "strategy": "BCAST_RC",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 5000,
+   "strategy": "PAIRWISE",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 5000,
+   "strategy": "AE_INV",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "A",
+  "params": {
+   "N": 5000,
+   "strategy": "HYBRID",
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "flood",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "flood",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "flood",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "blackhole",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "blackhole",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "blackhole",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.99,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "BCAST_RC",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "verified_suppression": false,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "verified_suppression": false,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "verified_suppression": false,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "verified_suppression": false,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "verified_suppression": false,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.9,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "verified_suppression": false,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "verified_suppression": false,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "verified_suppression": false,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "B",
+  "params": {
+   "N": 500,
+   "h": 0.8,
+   "adversary": "suppress",
+   "strategy": "HYBRID",
+   "verified_suppression": false,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "rooms",
+   "rooms": 6,
+   "room_move_per_min": 0.05,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "dt": 1.0,
+   "sample_s": 120,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "rooms",
+   "rooms": 6,
+   "room_move_per_min": 0.05,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "dt": 1.0,
+   "sample_s": 120,
+   "seed": 2
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "HYBRID",
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "HYBRID",
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 2
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "rooms",
+   "rooms": 6,
+   "room_move_per_min": 0.05,
+   "strategy": "BCAST_RC",
+   "T": 3600,
+   "dt": 1.0,
+   "sample_s": 120,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "BCAST_RC",
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "BCAST_RC",
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 2
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "rooms",
+   "rooms": 6,
+   "room_move_per_min": 0.05,
+   "strategy": "AE_INV",
+   "T": 3600,
+   "dt": 1.0,
+   "sample_s": 120,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "AE_INV",
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "AE_INV",
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 2
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "rooms",
+   "rooms": 6,
+   "room_move_per_min": 0.05,
+   "strategy": "PAIRWISE",
+   "T": 3600,
+   "dt": 1.0,
+   "sample_s": 120,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "PAIRWISE",
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "PAIRWISE",
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 2
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "HYBRID",
+   "digest_weight": false,
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "HYBRID",
+   "digest_weight": false,
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 2
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "rooms",
+   "rooms": 6,
+   "room_move_per_min": 0.05,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "T": 3600,
+   "sample_s": 120,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "HYBRID",
+   "burst_n": 0,
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 1
+  }
+ },
+ {
+  "group": "C",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "HYBRID",
+   "burst_n": 0,
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 2
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 2,
+   "cut_bridges": false,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 1
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 2,
+   "cut_bridges": false,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 2
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 2,
+   "cut_bridges": false,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 3
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 8,
+   "cut_bridges": false,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 1
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 8,
+   "cut_bridges": false,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 2
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 8,
+   "cut_bridges": false,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 3
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 2,
+   "cut_bridges": true,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 1
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 2,
+   "cut_bridges": true,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 2
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 2,
+   "cut_bridges": true,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 3
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 8,
+   "cut_bridges": true,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 1
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 8,
+   "cut_bridges": true,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 2
+  }
+ },
+ {
+  "group": "D",
+  "params": {
+   "N": 400,
+   "env": "barbell",
+   "bridges": 8,
+   "cut_bridges": true,
+   "strategy": "HYBRID",
+   "T": 7200,
+   "sample_s": 120,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "naive",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "naive",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "naive",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "naive",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "naive",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "naive",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "naive",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "naive",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "naive",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "strata",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "strata",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "strata",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "strata",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "strata",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "strata",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "strata",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "strata",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "strata",
+   "quota_per_min": 60.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota_strata",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota_strata",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 1.0,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota_strata",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota_strata",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota_strata",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.98,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota_strata",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota_strata",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota_strata",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "E",
+  "params": {
+   "N": 500,
+   "h": 0.95,
+   "adversary": "flood",
+   "capacity": 600,
+   "admission": "quota_strata",
+   "quota_per_min": 150.0,
+   "strategy": "HYBRID",
+   "T": 3600,
+   "sample_s": 120,
+   "flood_rate": 5.0,
+   "seed": 3
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "scan_duty": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "scan_duty": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "scan_duty": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "scan_duty": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "p_loss": 0.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "p_loss": 0.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "p_loss": 0.3,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "p_loss": 0.3,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "chain": 1,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "chain": 1,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "r_rx": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "r_rx": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "r_rx": 20.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "r_rx": 20.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "host_rate": 50.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "host_rate": 50.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "host_rate": 1000.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "host_rate": 1000.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "mode_mix": [
+    0.6,
+    0.2,
+    0.2
+   ],
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "mode_mix": [
+    0.6,
+    0.2,
+    0.2
+   ],
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "mode_mix": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "mode_mix": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "body_bytes": 4000,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "body_bytes": 4000,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "body_bytes": 200,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "body_bytes": 200,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "age_weight": false,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "age_weight": false,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "digest_weight": false,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "T": 1800,
+   "sample_s": 60,
+   "digest_weight": false,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "scan_duty": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "scan_duty": [
+    0.1,
+    0.1,
+    0.1
+   ],
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "scan_duty": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "scan_duty": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "p_loss": 0.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "p_loss": 0.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "p_loss": 0.3,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "p_loss": 0.3,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "r_rx": 5.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "r_rx": 5.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "r_rx": 20.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "r_rx": 20.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "domain_Bps": 500000.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "domain_Bps": 500000.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "domain_Bps": 4000000.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "domain_Bps": 4000000.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "link_Bps": 10000.0,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "link_Bps": 10000.0,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "conn_setup_s": 1.5,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "conn_setup_s": 1.5,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "mode_mix": [
+    0.6,
+    0.2,
+    0.2
+   ],
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "mode_mix": [
+    0.6,
+    0.2,
+    0.2
+   ],
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "mode_mix": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "mode_mix": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "body_bytes": 4000,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "body_bytes": 4000,
+   "seed": 2
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "body_bytes": 200,
+   "seed": 1
+  }
+ },
+ {
+  "group": "F",
+  "params": {
+   "N": 1000,
+   "strategy": "AE_INV",
+   "T": 1800,
+   "sample_s": 60,
+   "body_bytes": 200,
+   "seed": 2
+  }
+ },
+ {
+  "group": "G",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "rc_scope": "domain",
+   "rc_kappa": 1.0,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "G",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "rc_scope": "domain",
+   "rc_kappa": 1.0,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "G",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "rc_scope": "cell",
+   "rc_kappa": 1.0,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "G",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "rc_scope": "cell",
+   "rc_kappa": 1.0,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "G",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "rc_scope": "cell",
+   "rc_kappa": 3.0,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "G",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "rc_scope": "cell",
+   "rc_kappa": 3.0,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "G",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "rc_scope": "cell",
+   "rc_kappa": 10.0,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "G",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "rc_scope": "cell",
+   "rc_kappa": 10.0,
+   "T": 1800,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 100,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 100,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 100,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 500,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 500,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 500,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 1000,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 3
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 3000,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 3000,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 2
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 5000,
+   "strategy": "HYBRID",
+   "sdb": false,
+   "env": "auditorium",
+   "T": 3600,
+   "sample_s": 60,
+   "seed": 1
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "HYBRID",
+   "sdb": false,
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 1
+  }
+ },
+ {
+  "group": "H",
+  "params": {
+   "N": 3000,
+   "env": "city",
+   "strategy": "HYBRID",
+   "sdb": false,
+   "T": 86400,
+   "dt": 30.0,
+   "sample_s": 1800,
+   "seed": 2
+  }
+ }
+]

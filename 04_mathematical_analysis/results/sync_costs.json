@@ -1,0 +1,2298 @@
+{
+ "M=50,D=1": {
+  "sorted_inventory": {
+   "bytes": 800,
+   "rtt": 1,
+   "ram": 256,
+   "index": 600,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 4,
+   "overhead_vs_content": 0.749
+  },
+  "bucket_digest+lists": {
+   "bytes": 342,
+   "rtt": 2,
+   "ram": 512,
+   "index": 600,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 2,
+   "overhead_vs_content": 0.32
+  },
+  "merkle16": {
+   "bytes": 256,
+   "rtt": 2,
+   "ram": 256,
+   "index": 1024,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 2,
+   "overhead_vs_content": 0.24
+  },
+  "bloom_1pct": {
+   "bytes": 60,
+   "rtt": 1,
+   "ram": 60,
+   "index": 600,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.056
+  },
+  "cuckoo_1pct": {
+   "bytes": 63,
+   "rtt": 1,
+   "ram": 63,
+   "index": 600,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.059
+  },
+  "iblt+estimator": {
+   "bytes": 16796,
+   "rtt": 2,
+   "ram": 16796,
+   "index": 600,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 77,
+   "overhead_vs_content": 15.727
+  },
+  "rateless_iblt": {
+   "bytes": 91,
+   "rtt": 1,
+   "ram": 26,
+   "index": 600,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 1,
+   "overhead_vs_content": 0.085
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 600,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=50,D=10": {
+  "sorted_inventory": {
+   "bytes": 800,
+   "rtt": 1,
+   "ram": 256,
+   "index": 600,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 4,
+   "overhead_vs_content": 0.075
+  },
+  "bucket_digest+lists": {
+   "bytes": 398,
+   "rtt": 2,
+   "ram": 512,
+   "index": 600,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 2,
+   "overhead_vs_content": 0.037
+  },
+  "merkle16": {
+   "bytes": 2560,
+   "rtt": 2,
+   "ram": 256,
+   "index": 1024,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 12,
+   "overhead_vs_content": 0.24
+  },
+  "bloom_1pct": {
+   "bytes": 60,
+   "rtt": 1,
+   "ram": 60,
+   "index": 600,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.006
+  },
+  "cuckoo_1pct": {
+   "bytes": 63,
+   "rtt": 1,
+   "ram": 63,
+   "index": 600,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.006
+  },
+  "iblt+estimator": {
+   "bytes": 16965,
+   "rtt": 2,
+   "ram": 16965,
+   "index": 600,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 78,
+   "overhead_vs_content": 1.588
+  },
+  "rateless_iblt": {
+   "bytes": 247,
+   "rtt": 1,
+   "ram": 260,
+   "index": 600,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 2,
+   "overhead_vs_content": 0.023
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 600,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=50,D=25": {
+  "sorted_inventory": {
+   "bytes": 800,
+   "rtt": 1,
+   "ram": 256,
+   "index": 600,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 4,
+   "overhead_vs_content": 0.03
+  },
+  "bucket_digest+lists": {
+   "bytes": 492,
+   "rtt": 2,
+   "ram": 512,
+   "index": 600,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 3,
+   "overhead_vs_content": 0.018
+  },
+  "merkle16": {
+   "bytes": 6400,
+   "rtt": 2,
+   "ram": 256,
+   "index": 1024,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 30,
+   "overhead_vs_content": 0.24
+  },
+  "bloom_1pct": {
+   "bytes": 60,
+   "rtt": 1,
+   "ram": 60,
+   "index": 600,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.002
+  },
+  "cuckoo_1pct": {
+   "bytes": 63,
+   "rtt": 1,
+   "ram": 63,
+   "index": 600,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.002
+  },
+  "iblt+estimator": {
+   "bytes": 17264,
+   "rtt": 2,
+   "ram": 17264,
+   "index": 600,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 79,
+   "overhead_vs_content": 0.647
+  },
+  "rateless_iblt": {
+   "bytes": 507,
+   "rtt": 1,
+   "ram": 650,
+   "index": 600,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 3,
+   "overhead_vs_content": 0.019
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 600,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=50,D=50": {
+  "sorted_inventory": {
+   "bytes": 800,
+   "rtt": 1,
+   "ram": 256,
+   "index": 600,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 4,
+   "overhead_vs_content": 0.015
+  },
+  "bucket_digest+lists": {
+   "bytes": 648,
+   "rtt": 2,
+   "ram": 512,
+   "index": 600,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 3,
+   "overhead_vs_content": 0.012
+  },
+  "merkle16": {
+   "bytes": 12800,
+   "rtt": 2,
+   "ram": 256,
+   "index": 1024,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 59,
+   "overhead_vs_content": 0.24
+  },
+  "bloom_1pct": {
+   "bytes": 60,
+   "rtt": 1,
+   "ram": 60,
+   "index": 600,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.001
+  },
+  "cuckoo_1pct": {
+   "bytes": 63,
+   "rtt": 1,
+   "ram": 63,
+   "index": 600,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.001
+  },
+  "iblt+estimator": {
+   "bytes": 17745,
+   "rtt": 2,
+   "ram": 17745,
+   "index": 600,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 81,
+   "overhead_vs_content": 0.332
+  },
+  "rateless_iblt": {
+   "bytes": 949,
+   "rtt": 1,
+   "ram": 1300,
+   "index": 600,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 5,
+   "overhead_vs_content": 0.018
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 600,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=100,D=1": {
+  "sorted_inventory": {
+   "bytes": 1600,
+   "rtt": 1,
+   "ram": 256,
+   "index": 1200,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 8,
+   "overhead_vs_content": 1.498
+  },
+  "bucket_digest+lists": {
+   "bytes": 348,
+   "rtt": 2,
+   "ram": 512,
+   "index": 1200,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 2,
+   "overhead_vs_content": 0.326
+  },
+  "merkle16": {
+   "bytes": 256,
+   "rtt": 2,
+   "ram": 256,
+   "index": 2048,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 2,
+   "overhead_vs_content": 0.24
+  },
+  "bloom_1pct": {
+   "bytes": 120,
+   "rtt": 1,
+   "ram": 120,
+   "index": 1200,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.112
+  },
+  "cuckoo_1pct": {
+   "bytes": 127,
+   "rtt": 1,
+   "ram": 127,
+   "index": 1200,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.119
+  },
+  "iblt+estimator": {
+   "bytes": 16796,
+   "rtt": 2,
+   "ram": 16796,
+   "index": 1200,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 77,
+   "overhead_vs_content": 15.727
+  },
+  "rateless_iblt": {
+   "bytes": 91,
+   "rtt": 1,
+   "ram": 26,
+   "index": 1200,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 1,
+   "overhead_vs_content": 0.085
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 1200,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=100,D=10": {
+  "sorted_inventory": {
+   "bytes": 1600,
+   "rtt": 1,
+   "ram": 256,
+   "index": 1200,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 8,
+   "overhead_vs_content": 0.15
+  },
+  "bucket_digest+lists": {
+   "bytes": 461,
+   "rtt": 2,
+   "ram": 512,
+   "index": 1200,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 3,
+   "overhead_vs_content": 0.043
+  },
+  "merkle16": {
+   "bytes": 2560,
+   "rtt": 2,
+   "ram": 256,
+   "index": 2048,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 12,
+   "overhead_vs_content": 0.24
+  },
+  "bloom_1pct": {
+   "bytes": 120,
+   "rtt": 1,
+   "ram": 120,
+   "index": 1200,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.011
+  },
+  "cuckoo_1pct": {
+   "bytes": 127,
+   "rtt": 1,
+   "ram": 127,
+   "index": 1200,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.012
+  },
+  "iblt+estimator": {
+   "bytes": 16965,
+   "rtt": 2,
+   "ram": 16965,
+   "index": 1200,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 78,
+   "overhead_vs_content": 1.588
+  },
+  "rateless_iblt": {
+   "bytes": 247,
+   "rtt": 1,
+   "ram": 260,
+   "index": 1200,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 2,
+   "overhead_vs_content": 0.023
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 1200,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=100,D=100": {
+  "sorted_inventory": {
+   "bytes": 1600,
+   "rtt": 1,
+   "ram": 256,
+   "index": 1200,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 8,
+   "overhead_vs_content": 0.015
+  },
+  "bucket_digest+lists": {
+   "bytes": 1136,
+   "rtt": 2,
+   "ram": 512,
+   "index": 1200,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 6,
+   "overhead_vs_content": 0.011
+  },
+  "merkle16": {
+   "bytes": 25600,
+   "rtt": 2,
+   "ram": 256,
+   "index": 2048,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 117,
+   "overhead_vs_content": 0.24
+  },
+  "bloom_1pct": {
+   "bytes": 120,
+   "rtt": 1,
+   "ram": 120,
+   "index": 1200,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.001
+  },
+  "cuckoo_1pct": {
+   "bytes": 127,
+   "rtt": 1,
+   "ram": 127,
+   "index": 1200,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.001
+  },
+  "iblt+estimator": {
+   "bytes": 18720,
+   "rtt": 2,
+   "ram": 18720,
+   "index": 1200,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 86,
+   "overhead_vs_content": 0.175
+  },
+  "rateless_iblt": {
+   "bytes": 1820,
+   "rtt": 1,
+   "ram": 2600,
+   "index": 1200,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 9,
+   "overhead_vs_content": 0.017
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 1200,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=100,D=50": {
+  "sorted_inventory": {
+   "bytes": 1600,
+   "rtt": 1,
+   "ram": 256,
+   "index": 1200,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 8,
+   "overhead_vs_content": 0.03
+  },
+  "bucket_digest+lists": {
+   "bytes": 961,
+   "rtt": 2,
+   "ram": 512,
+   "index": 1200,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 5,
+   "overhead_vs_content": 0.018
+  },
+  "merkle16": {
+   "bytes": 12800,
+   "rtt": 2,
+   "ram": 256,
+   "index": 2048,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 59,
+   "overhead_vs_content": 0.24
+  },
+  "bloom_1pct": {
+   "bytes": 120,
+   "rtt": 1,
+   "ram": 120,
+   "index": 1200,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.002
+  },
+  "cuckoo_1pct": {
+   "bytes": 127,
+   "rtt": 1,
+   "ram": 127,
+   "index": 1200,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 1,
+   "overhead_vs_content": 0.002
+  },
+  "iblt+estimator": {
+   "bytes": 17745,
+   "rtt": 2,
+   "ram": 17745,
+   "index": 1200,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 81,
+   "overhead_vs_content": 0.332
+  },
+  "rateless_iblt": {
+   "bytes": 949,
+   "rtt": 1,
+   "ram": 1300,
+   "index": 1200,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 5,
+   "overhead_vs_content": 0.018
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 1200,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=1000,D=1": {
+  "sorted_inventory": {
+   "bytes": 16000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 12000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 73,
+   "overhead_vs_content": 14.981
+  },
+  "bucket_digest+lists": {
+   "bytes": 461,
+   "rtt": 2,
+   "ram": 512,
+   "index": 12000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 3,
+   "overhead_vs_content": 0.432
+  },
+  "merkle16": {
+   "bytes": 384,
+   "rtt": 3,
+   "ram": 256,
+   "index": 20528,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 2,
+   "overhead_vs_content": 0.36
+  },
+  "bloom_1pct": {
+   "bytes": 1198,
+   "rtt": 1,
+   "ram": 1198,
+   "index": 12000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 6,
+   "overhead_vs_content": 1.122
+  },
+  "cuckoo_1pct": {
+   "bytes": 1269,
+   "rtt": 1,
+   "ram": 1269,
+   "index": 12000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 6,
+   "overhead_vs_content": 1.188
+  },
+  "iblt+estimator": {
+   "bytes": 16796,
+   "rtt": 2,
+   "ram": 16796,
+   "index": 12000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 77,
+   "overhead_vs_content": 15.727
+  },
+  "rateless_iblt": {
+   "bytes": 91,
+   "rtt": 1,
+   "ram": 26,
+   "index": 12000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 1,
+   "overhead_vs_content": 0.085
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 12000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=1000,D=10": {
+  "sorted_inventory": {
+   "bytes": 16000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 12000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 73,
+   "overhead_vs_content": 1.498
+  },
+  "bucket_digest+lists": {
+   "bytes": 1586,
+   "rtt": 2,
+   "ram": 512,
+   "index": 12000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 8,
+   "overhead_vs_content": 0.149
+  },
+  "merkle16": {
+   "bytes": 3840,
+   "rtt": 3,
+   "ram": 256,
+   "index": 20528,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 18,
+   "overhead_vs_content": 0.36
+  },
+  "bloom_1pct": {
+   "bytes": 1198,
+   "rtt": 1,
+   "ram": 1198,
+   "index": 12000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 6,
+   "overhead_vs_content": 0.112
+  },
+  "cuckoo_1pct": {
+   "bytes": 1269,
+   "rtt": 1,
+   "ram": 1269,
+   "index": 12000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 6,
+   "overhead_vs_content": 0.119
+  },
+  "iblt+estimator": {
+   "bytes": 16965,
+   "rtt": 2,
+   "ram": 16965,
+   "index": 12000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 78,
+   "overhead_vs_content": 1.588
+  },
+  "rateless_iblt": {
+   "bytes": 247,
+   "rtt": 1,
+   "ram": 260,
+   "index": 12000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 2,
+   "overhead_vs_content": 0.023
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 12000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=1000,D=100": {
+  "sorted_inventory": {
+   "bytes": 16000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 12000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 73,
+   "overhead_vs_content": 0.15
+  },
+  "bucket_digest+lists": {
+   "bytes": 8336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 12000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 38,
+   "overhead_vs_content": 0.078
+  },
+  "merkle16": {
+   "bytes": 38400,
+   "rtt": 3,
+   "ram": 256,
+   "index": 20528,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 175,
+   "overhead_vs_content": 0.36
+  },
+  "bloom_1pct": {
+   "bytes": 1198,
+   "rtt": 1,
+   "ram": 1198,
+   "index": 12000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 6,
+   "overhead_vs_content": 0.011
+  },
+  "cuckoo_1pct": {
+   "bytes": 1269,
+   "rtt": 1,
+   "ram": 1269,
+   "index": 12000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 6,
+   "overhead_vs_content": 0.012
+  },
+  "iblt+estimator": {
+   "bytes": 18720,
+   "rtt": 2,
+   "ram": 18720,
+   "index": 12000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 86,
+   "overhead_vs_content": 0.175
+  },
+  "rateless_iblt": {
+   "bytes": 1820,
+   "rtt": 1,
+   "ram": 2600,
+   "index": 12000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 9,
+   "overhead_vs_content": 0.017
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 12000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=1000,D=500": {
+  "sorted_inventory": {
+   "bytes": 16000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 12000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 73,
+   "overhead_vs_content": 0.03
+  },
+  "bucket_digest+lists": {
+   "bytes": 8336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 12000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 38,
+   "overhead_vs_content": 0.016
+  },
+  "merkle16": {
+   "bytes": 192000,
+   "rtt": 3,
+   "ram": 256,
+   "index": 20528,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 873,
+   "overhead_vs_content": 0.36
+  },
+  "bloom_1pct": {
+   "bytes": 1198,
+   "rtt": 1,
+   "ram": 1198,
+   "index": 12000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 6,
+   "overhead_vs_content": 0.002
+  },
+  "cuckoo_1pct": {
+   "bytes": 1269,
+   "rtt": 1,
+   "ram": 1269,
+   "index": 12000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 6,
+   "overhead_vs_content": 0.002
+  },
+  "iblt+estimator": {
+   "bytes": 26520,
+   "rtt": 2,
+   "ram": 26520,
+   "index": 12000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 121,
+   "overhead_vs_content": 0.05
+  },
+  "rateless_iblt": {
+   "bytes": 8840,
+   "rtt": 1,
+   "ram": 13000,
+   "index": 12000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 41,
+   "overhead_vs_content": 0.017
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 12000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=1000,D=1000": {
+  "sorted_inventory": {
+   "bytes": 16000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 12000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 73,
+   "overhead_vs_content": 0.015
+  },
+  "bucket_digest+lists": {
+   "bytes": 8336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 12000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 38,
+   "overhead_vs_content": 0.008
+  },
+  "merkle16": {
+   "bytes": 384000,
+   "rtt": 3,
+   "ram": 256,
+   "index": 20528,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 1746,
+   "overhead_vs_content": 0.36
+  },
+  "bloom_1pct": {
+   "bytes": 1198,
+   "rtt": 1,
+   "ram": 1198,
+   "index": 12000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 6,
+   "overhead_vs_content": 0.001
+  },
+  "cuckoo_1pct": {
+   "bytes": 1269,
+   "rtt": 1,
+   "ram": 1269,
+   "index": 12000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 6,
+   "overhead_vs_content": 0.001
+  },
+  "iblt+estimator": {
+   "bytes": 36270,
+   "rtt": 2,
+   "ram": 36270,
+   "index": 12000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 165,
+   "overhead_vs_content": 0.034
+  },
+  "rateless_iblt": {
+   "bytes": 17615,
+   "rtt": 1,
+   "ram": 26000,
+   "index": 12000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 81,
+   "overhead_vs_content": 0.016
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 12000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=3000,D=1": {
+  "sorted_inventory": {
+   "bytes": 48000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 36000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 219,
+   "overhead_vs_content": 44.944
+  },
+  "bucket_digest+lists": {
+   "bytes": 711,
+   "rtt": 2,
+   "ram": 512,
+   "index": 36000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 4,
+   "overhead_vs_content": 0.666
+  },
+  "merkle16": {
+   "bytes": 384,
+   "rtt": 3,
+   "ram": 256,
+   "index": 61600,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 2,
+   "overhead_vs_content": 0.36
+  },
+  "bloom_1pct": {
+   "bytes": 3594,
+   "rtt": 1,
+   "ram": 3594,
+   "index": 36000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 17,
+   "overhead_vs_content": 3.365
+  },
+  "cuckoo_1pct": {
+   "bytes": 3807,
+   "rtt": 1,
+   "ram": 3807,
+   "index": 36000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 18,
+   "overhead_vs_content": 3.565
+  },
+  "iblt+estimator": {
+   "bytes": 16796,
+   "rtt": 2,
+   "ram": 16796,
+   "index": 36000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 77,
+   "overhead_vs_content": 15.727
+  },
+  "rateless_iblt": {
+   "bytes": 91,
+   "rtt": 1,
+   "ram": 26,
+   "index": 36000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 1,
+   "overhead_vs_content": 0.085
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 36000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=3000,D=10": {
+  "sorted_inventory": {
+   "bytes": 48000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 36000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 219,
+   "overhead_vs_content": 4.494
+  },
+  "bucket_digest+lists": {
+   "bytes": 4086,
+   "rtt": 2,
+   "ram": 512,
+   "index": 36000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 19,
+   "overhead_vs_content": 0.383
+  },
+  "merkle16": {
+   "bytes": 3840,
+   "rtt": 3,
+   "ram": 256,
+   "index": 61600,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 18,
+   "overhead_vs_content": 0.36
+  },
+  "bloom_1pct": {
+   "bytes": 3594,
+   "rtt": 1,
+   "ram": 3594,
+   "index": 36000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 17,
+   "overhead_vs_content": 0.337
+  },
+  "cuckoo_1pct": {
+   "bytes": 3807,
+   "rtt": 1,
+   "ram": 3807,
+   "index": 36000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 18,
+   "overhead_vs_content": 0.356
+  },
+  "iblt+estimator": {
+   "bytes": 16965,
+   "rtt": 2,
+   "ram": 16965,
+   "index": 36000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 78,
+   "overhead_vs_content": 1.588
+  },
+  "rateless_iblt": {
+   "bytes": 247,
+   "rtt": 1,
+   "ram": 260,
+   "index": 36000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 2,
+   "overhead_vs_content": 0.023
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 36000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=3000,D=100": {
+  "sorted_inventory": {
+   "bytes": 48000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 36000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 219,
+   "overhead_vs_content": 0.449
+  },
+  "bucket_digest+lists": {
+   "bytes": 24336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 36000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 111,
+   "overhead_vs_content": 0.228
+  },
+  "merkle16": {
+   "bytes": 38400,
+   "rtt": 3,
+   "ram": 256,
+   "index": 61600,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 175,
+   "overhead_vs_content": 0.36
+  },
+  "bloom_1pct": {
+   "bytes": 3594,
+   "rtt": 1,
+   "ram": 3594,
+   "index": 36000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 17,
+   "overhead_vs_content": 0.034
+  },
+  "cuckoo_1pct": {
+   "bytes": 3807,
+   "rtt": 1,
+   "ram": 3807,
+   "index": 36000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 18,
+   "overhead_vs_content": 0.036
+  },
+  "iblt+estimator": {
+   "bytes": 18720,
+   "rtt": 2,
+   "ram": 18720,
+   "index": 36000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 86,
+   "overhead_vs_content": 0.175
+  },
+  "rateless_iblt": {
+   "bytes": 1820,
+   "rtt": 1,
+   "ram": 2600,
+   "index": 36000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 9,
+   "overhead_vs_content": 0.017
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 36000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=3000,D=1500": {
+  "sorted_inventory": {
+   "bytes": 48000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 36000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 219,
+   "overhead_vs_content": 0.03
+  },
+  "bucket_digest+lists": {
+   "bytes": 24336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 36000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 111,
+   "overhead_vs_content": 0.015
+  },
+  "merkle16": {
+   "bytes": 576000,
+   "rtt": 3,
+   "ram": 256,
+   "index": 61600,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 2619,
+   "overhead_vs_content": 0.36
+  },
+  "bloom_1pct": {
+   "bytes": 3594,
+   "rtt": 1,
+   "ram": 3594,
+   "index": 36000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 17,
+   "overhead_vs_content": 0.002
+  },
+  "cuckoo_1pct": {
+   "bytes": 3807,
+   "rtt": 1,
+   "ram": 3807,
+   "index": 36000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 18,
+   "overhead_vs_content": 0.002
+  },
+  "iblt+estimator": {
+   "bytes": 46020,
+   "rtt": 2,
+   "ram": 46020,
+   "index": 36000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 210,
+   "overhead_vs_content": 0.029
+  },
+  "rateless_iblt": {
+   "bytes": 26403,
+   "rtt": 1,
+   "ram": 39000,
+   "index": 36000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 121,
+   "overhead_vs_content": 0.016
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 36000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=3000,D=3000": {
+  "sorted_inventory": {
+   "bytes": 48000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 36000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 219,
+   "overhead_vs_content": 0.015
+  },
+  "bucket_digest+lists": {
+   "bytes": 24336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 36000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 111,
+   "overhead_vs_content": 0.008
+  },
+  "merkle16": {
+   "bytes": 1152000,
+   "rtt": 3,
+   "ram": 256,
+   "index": 61600,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 5237,
+   "overhead_vs_content": 0.36
+  },
+  "bloom_1pct": {
+   "bytes": 3594,
+   "rtt": 1,
+   "ram": 3594,
+   "index": 36000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 17,
+   "overhead_vs_content": 0.001
+  },
+  "cuckoo_1pct": {
+   "bytes": 3807,
+   "rtt": 1,
+   "ram": 3807,
+   "index": 36000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 18,
+   "overhead_vs_content": 0.001
+  },
+  "iblt+estimator": {
+   "bytes": 75270,
+   "rtt": 2,
+   "ram": 75270,
+   "index": 36000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 343,
+   "overhead_vs_content": 0.023
+  },
+  "rateless_iblt": {
+   "bytes": 52728,
+   "rtt": 1,
+   "ram": 78000,
+   "index": 36000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 240,
+   "overhead_vs_content": 0.016
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 36000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=10000,D=1": {
+  "sorted_inventory": {
+   "bytes": 160000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 120000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 728,
+   "overhead_vs_content": 149.813
+  },
+  "bucket_digest+lists": {
+   "bytes": 1586,
+   "rtt": 2,
+   "ram": 512,
+   "index": 120000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 8,
+   "overhead_vs_content": 1.485
+  },
+  "merkle16": {
+   "bytes": 512,
+   "rtt": 4,
+   "ram": 256,
+   "index": 205328,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 3,
+   "overhead_vs_content": 0.479
+  },
+  "bloom_1pct": {
+   "bytes": 11981,
+   "rtt": 1,
+   "ram": 11981,
+   "index": 120000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 55,
+   "overhead_vs_content": 11.218
+  },
+  "cuckoo_1pct": {
+   "bytes": 12689,
+   "rtt": 1,
+   "ram": 12689,
+   "index": 120000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 58,
+   "overhead_vs_content": 11.881
+  },
+  "iblt+estimator": {
+   "bytes": 16796,
+   "rtt": 2,
+   "ram": 16796,
+   "index": 120000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 77,
+   "overhead_vs_content": 15.727
+  },
+  "rateless_iblt": {
+   "bytes": 91,
+   "rtt": 1,
+   "ram": 26,
+   "index": 120000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 1,
+   "overhead_vs_content": 0.085
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 120000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=10000,D=10": {
+  "sorted_inventory": {
+   "bytes": 160000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 120000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 728,
+   "overhead_vs_content": 14.981
+  },
+  "bucket_digest+lists": {
+   "bytes": 12836,
+   "rtt": 2,
+   "ram": 512,
+   "index": 120000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 59,
+   "overhead_vs_content": 1.202
+  },
+  "merkle16": {
+   "bytes": 5120,
+   "rtt": 4,
+   "ram": 256,
+   "index": 205328,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 24,
+   "overhead_vs_content": 0.479
+  },
+  "bloom_1pct": {
+   "bytes": 11981,
+   "rtt": 1,
+   "ram": 11981,
+   "index": 120000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 55,
+   "overhead_vs_content": 1.122
+  },
+  "cuckoo_1pct": {
+   "bytes": 12689,
+   "rtt": 1,
+   "ram": 12689,
+   "index": 120000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 58,
+   "overhead_vs_content": 1.188
+  },
+  "iblt+estimator": {
+   "bytes": 16965,
+   "rtt": 2,
+   "ram": 16965,
+   "index": 120000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 78,
+   "overhead_vs_content": 1.588
+  },
+  "rateless_iblt": {
+   "bytes": 247,
+   "rtt": 1,
+   "ram": 260,
+   "index": 120000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 2,
+   "overhead_vs_content": 0.023
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 120000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=10000,D=100": {
+  "sorted_inventory": {
+   "bytes": 160000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 120000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 728,
+   "overhead_vs_content": 1.498
+  },
+  "bucket_digest+lists": {
+   "bytes": 80336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 120000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 366,
+   "overhead_vs_content": 0.752
+  },
+  "merkle16": {
+   "bytes": 51200,
+   "rtt": 4,
+   "ram": 256,
+   "index": 205328,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 233,
+   "overhead_vs_content": 0.479
+  },
+  "bloom_1pct": {
+   "bytes": 11981,
+   "rtt": 1,
+   "ram": 11981,
+   "index": 120000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 55,
+   "overhead_vs_content": 0.112
+  },
+  "cuckoo_1pct": {
+   "bytes": 12689,
+   "rtt": 1,
+   "ram": 12689,
+   "index": 120000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 58,
+   "overhead_vs_content": 0.119
+  },
+  "iblt+estimator": {
+   "bytes": 18720,
+   "rtt": 2,
+   "ram": 18720,
+   "index": 120000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 86,
+   "overhead_vs_content": 0.175
+  },
+  "rateless_iblt": {
+   "bytes": 1820,
+   "rtt": 1,
+   "ram": 2600,
+   "index": 120000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 9,
+   "overhead_vs_content": 0.017
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 120000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=10000,D=5000": {
+  "sorted_inventory": {
+   "bytes": 160000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 120000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 728,
+   "overhead_vs_content": 0.03
+  },
+  "bucket_digest+lists": {
+   "bytes": 80336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 120000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 366,
+   "overhead_vs_content": 0.015
+  },
+  "merkle16": {
+   "bytes": 2560000,
+   "rtt": 4,
+   "ram": 256,
+   "index": 205328,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 11637,
+   "overhead_vs_content": 0.479
+  },
+  "bloom_1pct": {
+   "bytes": 11981,
+   "rtt": 1,
+   "ram": 11981,
+   "index": 120000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 55,
+   "overhead_vs_content": 0.002
+  },
+  "cuckoo_1pct": {
+   "bytes": 12689,
+   "rtt": 1,
+   "ram": 12689,
+   "index": 120000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 58,
+   "overhead_vs_content": 0.002
+  },
+  "iblt+estimator": {
+   "bytes": 114270,
+   "rtt": 2,
+   "ram": 114270,
+   "index": 120000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 520,
+   "overhead_vs_content": 0.021
+  },
+  "rateless_iblt": {
+   "bytes": 87815,
+   "rtt": 1,
+   "ram": 130000,
+   "index": 120000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 400,
+   "overhead_vs_content": 0.016
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 120000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=10000,D=10000": {
+  "sorted_inventory": {
+   "bytes": 160000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 120000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 728,
+   "overhead_vs_content": 0.015
+  },
+  "bucket_digest+lists": {
+   "bytes": 80336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 120000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 366,
+   "overhead_vs_content": 0.008
+  },
+  "merkle16": {
+   "bytes": 5120000,
+   "rtt": 4,
+   "ram": 256,
+   "index": 205328,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 23273,
+   "overhead_vs_content": 0.479
+  },
+  "bloom_1pct": {
+   "bytes": 11981,
+   "rtt": 1,
+   "ram": 11981,
+   "index": 120000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 55,
+   "overhead_vs_content": 0.001
+  },
+  "cuckoo_1pct": {
+   "bytes": 12689,
+   "rtt": 1,
+   "ram": 12689,
+   "index": 120000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 58,
+   "overhead_vs_content": 0.001
+  },
+  "iblt+estimator": {
+   "bytes": 211770,
+   "rtt": 2,
+   "ram": 211770,
+   "index": 120000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 963,
+   "overhead_vs_content": 0.02
+  },
+  "rateless_iblt": {
+   "bytes": 175565,
+   "rtt": 1,
+   "ram": 260000,
+   "index": 120000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 799,
+   "overhead_vs_content": 0.016
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 120000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=100000,D=1": {
+  "sorted_inventory": {
+   "bytes": 1600000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 1200000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 7273,
+   "overhead_vs_content": 1498.127
+  },
+  "bucket_digest+lists": {
+   "bytes": 12836,
+   "rtt": 2,
+   "ram": 512,
+   "index": 1200000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 59,
+   "overhead_vs_content": 12.019
+  },
+  "merkle16": {
+   "bytes": 640,
+   "rtt": 5,
+   "ram": 256,
+   "index": 2053328,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 3,
+   "overhead_vs_content": 0.599
+  },
+  "bloom_1pct": {
+   "bytes": 119813,
+   "rtt": 1,
+   "ram": 119813,
+   "index": 1200000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 545,
+   "overhead_vs_content": 112.184
+  },
+  "cuckoo_1pct": {
+   "bytes": 126893,
+   "rtt": 1,
+   "ram": 126893,
+   "index": 1200000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 577,
+   "overhead_vs_content": 118.814
+  },
+  "iblt+estimator": {
+   "bytes": 16796,
+   "rtt": 2,
+   "ram": 16796,
+   "index": 1200000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 77,
+   "overhead_vs_content": 15.727
+  },
+  "rateless_iblt": {
+   "bytes": 91,
+   "rtt": 1,
+   "ram": 26,
+   "index": 1200000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 1,
+   "overhead_vs_content": 0.085
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 1200000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=100000,D=10": {
+  "sorted_inventory": {
+   "bytes": 1600000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 1200000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 7273,
+   "overhead_vs_content": 149.813
+  },
+  "bucket_digest+lists": {
+   "bytes": 125336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 1200000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 570,
+   "overhead_vs_content": 11.736
+  },
+  "merkle16": {
+   "bytes": 6400,
+   "rtt": 5,
+   "ram": 256,
+   "index": 2053328,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 30,
+   "overhead_vs_content": 0.599
+  },
+  "bloom_1pct": {
+   "bytes": 119813,
+   "rtt": 1,
+   "ram": 119813,
+   "index": 1200000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 545,
+   "overhead_vs_content": 11.218
+  },
+  "cuckoo_1pct": {
+   "bytes": 126893,
+   "rtt": 1,
+   "ram": 126893,
+   "index": 1200000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 577,
+   "overhead_vs_content": 11.881
+  },
+  "iblt+estimator": {
+   "bytes": 16965,
+   "rtt": 2,
+   "ram": 16965,
+   "index": 1200000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 78,
+   "overhead_vs_content": 1.588
+  },
+  "rateless_iblt": {
+   "bytes": 247,
+   "rtt": 1,
+   "ram": 260,
+   "index": 1200000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 2,
+   "overhead_vs_content": 0.023
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 1200000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=100000,D=100": {
+  "sorted_inventory": {
+   "bytes": 1600000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 1200000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 7273,
+   "overhead_vs_content": 14.981
+  },
+  "bucket_digest+lists": {
+   "bytes": 800336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 1200000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 3638,
+   "overhead_vs_content": 7.494
+  },
+  "merkle16": {
+   "bytes": 64000,
+   "rtt": 5,
+   "ram": 256,
+   "index": 2053328,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 291,
+   "overhead_vs_content": 0.599
+  },
+  "bloom_1pct": {
+   "bytes": 119813,
+   "rtt": 1,
+   "ram": 119813,
+   "index": 1200000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 545,
+   "overhead_vs_content": 1.122
+  },
+  "cuckoo_1pct": {
+   "bytes": 126893,
+   "rtt": 1,
+   "ram": 126893,
+   "index": 1200000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 577,
+   "overhead_vs_content": 1.188
+  },
+  "iblt+estimator": {
+   "bytes": 18720,
+   "rtt": 2,
+   "ram": 18720,
+   "index": 1200000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 86,
+   "overhead_vs_content": 0.175
+  },
+  "rateless_iblt": {
+   "bytes": 1820,
+   "rtt": 1,
+   "ram": 2600,
+   "index": 1200000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 9,
+   "overhead_vs_content": 0.017
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 1200000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=100000,D=50000": {
+  "sorted_inventory": {
+   "bytes": 1600000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 1200000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 7273,
+   "overhead_vs_content": 0.03
+  },
+  "bucket_digest+lists": {
+   "bytes": 800336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 1200000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 3638,
+   "overhead_vs_content": 0.015
+  },
+  "merkle16": {
+   "bytes": 32000000,
+   "rtt": 5,
+   "ram": 256,
+   "index": 2053328,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 145455,
+   "overhead_vs_content": 0.599
+  },
+  "bloom_1pct": {
+   "bytes": 119813,
+   "rtt": 1,
+   "ram": 119813,
+   "index": 1200000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 545,
+   "overhead_vs_content": 0.002
+  },
+  "cuckoo_1pct": {
+   "bytes": 126893,
+   "rtt": 1,
+   "ram": 126893,
+   "index": 1200000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 577,
+   "overhead_vs_content": 0.002
+  },
+  "iblt+estimator": {
+   "bytes": 991770,
+   "rtt": 2,
+   "ram": 991770,
+   "index": 1200000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 4509,
+   "overhead_vs_content": 0.019
+  },
+  "rateless_iblt": {
+   "bytes": 877565,
+   "rtt": 1,
+   "ram": 1300000,
+   "index": 1200000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 3989,
+   "overhead_vs_content": 0.016
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 1200000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ },
+ "M=100000,D=100000": {
+  "sorted_inventory": {
+   "bytes": 1600000,
+   "rtt": 1,
+   "ram": 256,
+   "index": 1200000,
+   "fp": 0.0,
+   "leak": "entire library, verbatim",
+   "frames": 7273,
+   "overhead_vs_content": 0.015
+  },
+  "bucket_digest+lists": {
+   "bytes": 800336,
+   "rtt": 2,
+   "ram": 512,
+   "index": 1200000,
+   "fp": 1.52587890625e-05,
+   "leak": "which buckets differ; sid lists of those buckets",
+   "frames": 3638,
+   "overhead_vs_content": 0.007
+  },
+  "merkle16": {
+   "bytes": 64000000,
+   "rtt": 5,
+   "ram": 256,
+   "index": 2053328,
+   "fp": 0.0,
+   "leak": "hash tree of library (testable against known items)",
+   "frames": 290910,
+   "overhead_vs_content": 0.599
+  },
+  "bloom_1pct": {
+   "bytes": 119813,
+   "rtt": 1,
+   "ram": 119813,
+   "index": 1200000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 545,
+   "overhead_vs_content": 0.001
+  },
+  "cuckoo_1pct": {
+   "bytes": 126893,
+   "rtt": 1,
+   "ram": 126893,
+   "index": 1200000,
+   "fp": 0.01,
+   "leak": "membership of ANY known item testable",
+   "frames": 577,
+   "overhead_vs_content": 0.001
+  },
+  "iblt+estimator": {
+   "bytes": 1966770,
+   "rtt": 2,
+   "ram": 1966770,
+   "index": 1200000,
+   "fp": 1e-06,
+   "leak": "decodes U\\S for an observer holding U when |U\\S| small",
+   "frames": 8940,
+   "overhead_vs_content": 0.018
+  },
+  "rateless_iblt": {
+   "bytes": 1755065,
+   "rtt": 1,
+   "ram": 2600000,
+   "index": 1200000,
+   "fp": 1e-06,
+   "leak": "same as IBLT",
+   "frames": 7978,
+   "overhead_vs_content": 0.016
+  },
+  "carousel_only": {
+   "bytes": 0,
+   "rtt": 0,
+   "ram": 0,
+   "index": 1200000,
+   "fp": null,
+   "leak": "items you transmit (inherent to forwarding)",
+   "frames": 0,
+   "overhead_vs_content": 0.0
+  }
+ }
+}

@@ -1,0 +1,573 @@
+339 runs defined, 0 done, 339 to run
+[1/339] A BCAST N=10 mean=1.000 1s
+[2/339] A BCAST N=10 mean=1.000 1s
+[3/339] A BCAST N=10 mean=1.000 1s
+[4/339] A BCAST_RC N=10 mean=1.000 1s
+[5/339] A BCAST_RC N=10 mean=1.000 1s
+[6/339] A BCAST_RC N=10 mean=1.000 1s
+[7/339] A PAIRWISE N=10 mean=0.800 0s
+[8/339] A PAIRWISE N=10 mean=0.700 0s
+[9/339] A PAIRWISE N=10 mean=0.600 0s
+[10/339] A AE_INV N=10 mean=0.800 0s
+[11/339] A AE_INV N=10 mean=0.700 0s
+[12/339] A AE_INV N=10 mean=0.600 0s
+[13/339] A HYBRID N=10 mean=1.000 1s
+[14/339] A HYBRID N=10 mean=1.000 1s
+[15/339] A HYBRID N=10 mean=1.000 1s
+[16/339] A BCAST N=50 mean=1.000 2s
+[17/339] A BCAST N=50 mean=1.000 2s
+[18/339] A BCAST N=50 mean=1.000 2s
+[19/339] A BCAST_RC N=50 mean=1.000 2s
+[20/339] A BCAST_RC N=50 mean=1.000 2s
+[21/339] A PAIRWISE N=50 mean=0.840 0s
+[22/339] A PAIRWISE N=50 mean=0.820 0s
+[23/339] A BCAST_RC N=50 mean=1.000 2s
+[24/339] A AE_INV N=50 mean=0.840 0s
+[25/339] A PAIRWISE N=50 mean=0.840 0s
+[26/339] A AE_INV N=50 mean=0.840 0s
+[27/339] A AE_INV N=50 mean=0.820 0s
+[28/339] A HYBRID N=50 mean=1.000 4s
+[29/339] A HYBRID N=50 mean=1.000 4s
+[30/339] A BCAST N=100 mean=1.000 4s
+[31/339] A HYBRID N=50 mean=1.000 4s
+[32/339] A BCAST N=100 mean=1.000 4s
+[33/339] A BCAST N=100 mean=1.000 4s
+[34/339] A BCAST_RC N=100 mean=1.000 4s
+[35/339] A BCAST_RC N=100 mean=1.000 4s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[36/339] A PAIRWISE N=100 mean=0.810 1s
+[37/339] A PAIRWISE N=100 mean=0.770 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[38/339] A PAIRWISE N=100 mean=0.810 1s
+[39/339] A AE_INV N=100 mean=0.810 1s
+[40/339] A AE_INV N=100 mean=0.770 1s
+[41/339] A BCAST_RC N=100 mean=1.000 4s
+[42/339] A AE_INV N=100 mean=0.810 1s
+[43/339] A HYBRID N=100 mean=1.000 8s
+[44/339] A HYBRID N=100 mean=1.000 8s
+[45/339] A ORACLE N=100 mean=1.000 4s
+[46/339] A HYBRID N=100 mean=1.000 8s
+[47/339] B HYBRID N=500 mean=1.000 22s
+[48/339] B HYBRID N=500 mean=1.000 23s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[49/339] B AE_INV N=500 mean=0.797 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[50/339] B AE_INV N=500 mean=0.790 1s
+[51/339] B AE_INV N=500 mean=0.806 1s
+[52/339] B HYBRID N=500 mean=1.000 23s
+[53/339] B BCAST_RC N=500 mean=0.854 23s
+[54/339] B BCAST_RC N=500 mean=0.891 23s
+[55/339] B BCAST_RC N=500 mean=0.849 24s
+[56/339] B HYBRID N=500 mean=1.000 23s
+[57/339] B HYBRID N=500 mean=1.000 24s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[58/339] B AE_INV N=500 mean=0.796 1s
+[59/339] B AE_INV N=500 mean=0.788 1s
+[60/339] B AE_INV N=500 mean=0.806 1s
+[61/339] B HYBRID N=500 mean=1.000 24s
+[62/339] B BCAST_RC N=500 mean=0.817 23s
+[63/339] B BCAST_RC N=500 mean=0.808 23s
+[64/339] B BCAST_RC N=500 mean=0.823 24s
+[65/339] B HYBRID N=500 mean=0.997 26s
+[66/339] B HYBRID N=500 mean=0.997 26s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[67/339] B AE_INV N=500 mean=0.800 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[68/339] B AE_INV N=500 mean=0.783 1s
+[69/339] B AE_INV N=500 mean=0.806 1s
+[70/339] B HYBRID N=500 mean=0.999 27s
+[71/339] B BCAST_RC N=500 mean=0.676 23s
+[72/339] B BCAST_RC N=500 mean=0.687 22s
+[73/339] B BCAST_RC N=500 mean=0.694 23s
+[74/339] B HYBRID N=500 mean=0.855 24s
+[75/339] B HYBRID N=500 mean=0.857 25s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[76/339] B AE_INV N=500 mean=0.787 1s
+[77/339] B AE_INV N=500 mean=0.778 1s
+[78/339] B AE_INV N=500 mean=0.807 1s
+[79/339] B HYBRID N=500 mean=0.858 25s
+[80/339] B BCAST_RC N=500 mean=0.539 21s
+[81/339] B BCAST_RC N=500 mean=0.530 21s
+[82/339] B BCAST_RC N=500 mean=0.523 22s
+[83/339] B HYBRID N=500 mean=0.300 21s
+[84/339] B HYBRID N=500 mean=0.289 26s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[85/339] B AE_INV N=500 mean=0.807 2s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[86/339] B AE_INV N=500 mean=0.797 2s
+[87/339] B AE_INV N=500 mean=0.810 2s
+[88/339] B HYBRID N=500 mean=0.292 33s
+[89/339] B BCAST_RC N=500 mean=0.409 23s
+[90/339] B BCAST_RC N=500 mean=0.401 24s
+[91/339] B BCAST_RC N=500 mean=0.379 32s
+[92/339] B HYBRID N=500 mean=1.000 31s
+[93/339] B HYBRID N=500 mean=1.000 23s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[94/339] B AE_INV N=500 mean=0.796 1s
+[95/339] B AE_INV N=500 mean=0.788 1s
+[96/339] B AE_INV N=500 mean=0.806 1s
+[97/339] B HYBRID N=500 mean=1.000 24s
+[98/339] B BCAST_RC N=500 mean=0.855 23s
+[99/339] B BCAST_RC N=500 mean=0.870 24s
+[100/339] B BCAST_RC N=500 mean=0.868 24s
+[101/339] B HYBRID N=500 mean=1.000 22s
+[102/339] B HYBRID N=500 mean=1.000 22s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[103/339] B AE_INV N=500 mean=0.800 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[104/339] B AE_INV N=500 mean=0.783 1s
+[105/339] B AE_INV N=500 mean=0.806 1s
+[106/339] B HYBRID N=500 mean=1.000 23s
+[107/339] B BCAST_RC N=500 mean=0.877 22s
+[108/339] B BCAST_RC N=500 mean=0.869 23s
+[109/339] B BCAST_RC N=500 mean=0.873 23s
+[110/339] B HYBRID N=500 mean=1.000 21s
+[111/339] B HYBRID N=500 mean=1.000 20s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[112/339] B AE_INV N=500 mean=0.787 1s
+[113/339] B AE_INV N=500 mean=0.778 1s
+[114/339] B AE_INV N=500 mean=0.807 1s
+[115/339] B HYBRID N=500 mean=1.000 22s
+[116/339] B BCAST_RC N=500 mean=0.894 23s
+[117/339] B BCAST_RC N=500 mean=0.892 23s
+[118/339] B HYBRID N=500 mean=1.000 18s
+[119/339] B BCAST_RC N=500 mean=0.909 23s
+[120/339] B HYBRID N=500 mean=1.000 19s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[121/339] B AE_INV N=500 mean=0.807 1s
+[122/339] B AE_INV N=500 mean=0.797 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[123/339] B HYBRID N=500 mean=1.000 19s
+[124/339] B AE_INV N=500 mean=0.810 1s
+[125/339] B BCAST_RC N=500 mean=0.916 21s
+[126/339] B BCAST_RC N=500 mean=0.948 21s
+[127/339] B BCAST_RC N=500 mean=0.925 22s
+[128/339] B HYBRID N=500 mean=1.000 23s
+[129/339] B HYBRID N=500 mean=1.000 23s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[130/339] B AE_INV N=500 mean=0.796 1s
+[131/339] B AE_INV N=500 mean=0.788 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[132/339] B HYBRID N=500 mean=1.000 24s
+[133/339] B AE_INV N=500 mean=0.806 1s
+[134/339] B BCAST_RC N=500 mean=0.833 23s
+[135/339] B BCAST_RC N=500 mean=0.835 24s
+[136/339] B BCAST_RC N=500 mean=0.856 24s
+[137/339] B HYBRID N=500 mean=1.000 23s
+[138/339] B HYBRID N=500 mean=1.000 23s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[139/339] B HYBRID N=500 mean=1.000 23s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[140/339] B AE_INV N=500 mean=0.800 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[141/339] B AE_INV N=500 mean=0.783 1s
+[142/339] B AE_INV N=500 mean=0.806 1s
+[143/339] B BCAST_RC N=500 mean=0.844 23s
+[144/339] B BCAST_RC N=500 mean=0.849 23s
+[145/339] B HYBRID N=500 mean=1.000 22s
+[146/339] B BCAST_RC N=500 mean=0.858 23s
+[147/339] B HYBRID N=500 mean=1.000 23s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[148/339] B AE_INV N=500 mean=0.787 1s
+[149/339] B HYBRID N=500 mean=1.000 23s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[150/339] B AE_INV N=500 mean=0.778 1s
+[151/339] B AE_INV N=500 mean=0.807 1s
+[152/339] B BCAST_RC N=500 mean=0.847 22s
+[153/339] B BCAST_RC N=500 mean=0.856 22s
+[154/339] B HYBRID N=500 mean=1.000 20s
+[155/339] B BCAST_RC N=500 mean=0.837 23s
+[156/339] B HYBRID N=500 mean=1.000 20s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[157/339] B AE_INV N=500 mean=0.807 1s
+[158/339] B AE_INV N=500 mean=0.797 1s
+[159/339] B HYBRID N=500 mean=1.000 20s
+[160/339] B AE_INV N=500 mean=0.810 1s
+[161/339] B BCAST_RC N=500 mean=0.868 21s
+[162/339] B BCAST_RC N=500 mean=0.863 21s
+[163/339] B BCAST_RC N=500 mean=0.873 22s
+[164/339] B HYBRID N=500 mean=1.000 39s
+[165/339] B HYBRID N=500 mean=1.000 40s
+[166/339] B HYBRID N=500 mean=1.000 41s
+[167/339] B HYBRID N=500 mean=1.000 42s
+[168/339] B HYBRID N=500 mean=1.000 42s
+[169/339] B HYBRID N=500 mean=1.000 44s
+[170/339] B HYBRID N=500 mean=1.000 36s
+[171/339] B HYBRID N=500 mean=1.000 36s
+[172/339] B HYBRID N=500 mean=1.000 36s
+[173/339] A BCAST N=500 mean=0.847 63s
+[174/339] A BCAST N=500 mean=0.888 64s
+[175/339] A BCAST_RC N=500 mean=0.950 46s
+[176/339] A BCAST N=500 mean=0.859 66s
+[177/339] A BCAST_RC N=500 mean=0.964 45s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[178/339] A PAIRWISE N=500 mean=0.798 3s
+[179/339] A PAIRWISE N=500 mean=0.790 3s
+[180/339] A BCAST_RC N=500 mean=0.940 46s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[181/339] A PAIRWISE N=500 mean=0.806 3s
+[182/339] A AE_INV N=500 mean=0.798 2s
+[183/339] A AE_INV N=500 mean=0.790 2s
+[184/339] A AE_INV N=500 mean=0.806 2s
+[185/339] A HYBRID N=500 mean=1.000 41s
+[186/339] A HYBRID N=500 mean=1.000 42s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:442: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[187/339] A HYBRID N=500 mean=1.000 41s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:442: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[188/339] E HYBRID N=500 mean=1.000 41s
+[189/339] E HYBRID N=500 mean=1.000 41s
+[190/339] E HYBRID N=500 mean=1.000 43s
+[191/339] E HYBRID N=500 mean=0.529 56s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:442: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[192/339] E HYBRID N=500 mean=0.530 56s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:442: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[193/339] E HYBRID N=500 mean=0.234 54s
+[194/339] E HYBRID N=500 mean=0.522 59s
+[195/339] E HYBRID N=500 mean=0.238 52s
+[196/339] E HYBRID N=500 mean=0.254 54s
+[197/339] E HYBRID N=500 mean=1.000 42s
+[198/339] E HYBRID N=500 mean=1.000 42s
+[199/339] E HYBRID N=500 mean=1.000 43s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:442: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[200/339] E HYBRID N=500 mean=0.876 57s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:442: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[201/339] E HYBRID N=500 mean=0.885 57s
+[202/339] E HYBRID N=500 mean=0.886 57s
+[203/339] E HYBRID N=500 mean=0.821 56s
+[204/339] E HYBRID N=500 mean=0.824 55s
+[205/339] E HYBRID N=500 mean=0.818 56s
+[206/339] E HYBRID N=500 mean=1.000 41s
+[207/339] E HYBRID N=500 mean=1.000 42s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:442: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[208/339] E HYBRID N=500 mean=1.000 43s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:442: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[209/339] E HYBRID N=500 mean=1.000 44s
+[210/339] E HYBRID N=500 mean=1.000 44s
+[211/339] E HYBRID N=500 mean=1.000 45s
+[212/339] E HYBRID N=500 mean=1.000 43s
+[213/339] E HYBRID N=500 mean=1.000 44s
+[214/339] E HYBRID N=500 mean=1.000 46s
+[215/339] F HYBRID N=1000 mean=0.820 48s
+[216/339] F HYBRID N=1000 mean=0.827 48s
+[217/339] F HYBRID N=1000 mean=0.465 78s
+[218/339] F HYBRID N=1000 mean=0.473 79s
+[219/339] F HYBRID N=1000 mean=1.000 54s
+[220/339] F HYBRID N=1000 mean=1.000 62s
+[221/339] F HYBRID N=1000 mean=0.882 94s
+[222/339] F HYBRID N=1000 mean=0.899 88s
+[223/339] F HYBRID N=1000 mean=0.658 60s
+[224/339] F HYBRID N=1000 mean=0.660 61s
+[225/339] F HYBRID N=1000 mean=0.536 42s
+[226/339] F HYBRID N=1000 mean=0.531 43s
+[227/339] F HYBRID N=1000 mean=0.449 46s
+[228/339] F HYBRID N=1000 mean=0.462 46s
+[229/339] F HYBRID N=1000 mean=1.000 55s
+[230/339] F HYBRID N=1000 mean=1.000 53s
+[231/339] F HYBRID N=1000 mean=0.820 48s
+[232/339] F HYBRID N=1000 mean=0.827 48s
+[233/339] F HYBRID N=1000 mean=0.820 48s
+[234/339] F HYBRID N=1000 mean=0.827 48s
+[235/339] F HYBRID N=1000 mean=0.999 30s
+[236/339] F HYBRID N=1000 mean=0.999 29s
+[237/339] F HYBRID N=1000 mean=0.785 62s
+[238/339] F HYBRID N=1000 mean=0.807 61s
+[239/339] F HYBRID N=1000 mean=0.235 40s
+[240/339] F HYBRID N=1000 mean=0.238 41s
+[241/339] F HYBRID N=1000 mean=1.000 38s
+[242/339] F HYBRID N=1000 mean=1.000 37s
+[243/339] F HYBRID N=1000 mean=0.743 41s
+[244/339] F HYBRID N=1000 mean=0.741 40s
+[245/339] F HYBRID N=1000 mean=0.807 49s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[246/339] F AE_INV N=1000 mean=0.782 2s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[247/339] F HYBRID N=1000 mean=0.806 49s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[248/339] F AE_INV N=1000 mean=0.774 2s
+[249/339] F AE_INV N=1000 mean=0.779 2s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[250/339] F AE_INV N=1000 mean=0.773 2s
+[251/339] F AE_INV N=1000 mean=0.782 2s
+[252/339] F AE_INV N=1000 mean=0.774 2s
+[253/339] F AE_INV N=1000 mean=0.778 2s
+[254/339] F AE_INV N=1000 mean=0.775 2s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[255/339] F AE_INV N=1000 mean=0.781 2s
+[256/339] F AE_INV N=1000 mean=0.778 2s
+[257/339] F AE_INV N=1000 mean=0.776 3s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[258/339] F AE_INV N=1000 mean=0.774 3s
+[259/339] F AE_INV N=1000 mean=0.792 2s
+[260/339] F AE_INV N=1000 mean=0.786 2s
+[261/339] F AE_INV N=1000 mean=0.402 2s
+[262/339] F AE_INV N=1000 mean=0.410 2s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[263/339] F AE_INV N=1000 mean=0.786 2s
+[264/339] F AE_INV N=1000 mean=0.783 2s
+[265/339] F AE_INV N=1000 mean=0.308 2s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[266/339] F AE_INV N=1000 mean=0.310 2s
+[267/339] F AE_INV N=1000 mean=0.542 2s
+[268/339] F AE_INV N=1000 mean=0.518 2s
+[269/339] F AE_INV N=1000 mean=0.404 1s
+[270/339] F AE_INV N=1000 mean=0.404 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[271/339] F AE_INV N=1000 mean=0.994 3s
+[272/339] F AE_INV N=1000 mean=0.993 3s
+[273/339] F AE_INV N=1000 mean=0.295 2s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[274/339] F AE_INV N=1000 mean=0.308 2s
+[275/339] F AE_INV N=1000 mean=0.812 2s
+[276/339] F AE_INV N=1000 mean=0.802 2s
+[277/339] D HYBRID N=400 mean=0.504 65s
+[278/339] D HYBRID N=400 mean=1.000 73s
+[279/339] D HYBRID N=400 mean=1.000 76s
+[280/339] D HYBRID N=400 mean=1.000 74s
+[281/339] D HYBRID N=400 mean=1.000 73s
+[282/339] D HYBRID N=400 mean=1.000 76s
+[283/339] D HYBRID N=400 mean=0.496 67s
+[284/339] D HYBRID N=400 mean=0.494 67s
+[285/339] D HYBRID N=400 mean=0.496 68s
+[286/339] D HYBRID N=400 mean=0.481 65s
+[287/339] D HYBRID N=400 mean=0.478 65s
+[288/339] D HYBRID N=400 mean=0.481 67s
+[289/339] A BCAST N=1000 mean=0.395 139s
+[290/339] A BCAST N=1000 mean=0.392 137s
+[291/339] A BCAST_RC N=1000 mean=0.612 74s
+[292/339] A BCAST N=1000 mean=0.388 137s
+[293/339] A BCAST_RC N=1000 mean=0.619 73s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[294/339] A PAIRWISE N=1000 mean=0.812 6s
+[295/339] A PAIRWISE N=1000 mean=0.802 6s
+[296/339] A PAIRWISE N=1000 mean=0.792 6s
+[297/339] A AE_INV N=1000 mean=0.812 4s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[298/339] A AE_INV N=1000 mean=0.802 4s
+[299/339] A AE_INV N=1000 mean=0.792 4s
+[300/339] A BCAST_RC N=1000 mean=0.612 72s
+[301/339] A HYBRID N=1000 mean=0.932 96s
+[302/339] A HYBRID N=1000 mean=0.961 97s
+[303/339] A HYBRID N=1000 mean=0.952 97s
+[304/339] C HYBRID N=3000 mean=0.481 71s
+[305/339] C HYBRID N=3000 mean=0.505 73s
+[306/339] A ORACLE N=1000 mean=1.000 239s
+[307/339] C BCAST_RC N=3000 mean=0.582 75s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[308/339] C AE_INV N=3000 mean=0.796 16s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[309/339] C BCAST_RC N=3000 mean=0.581 75s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  surv = math.exp(-2 * Ga_fl)
+[310/339] C AE_INV N=3000 mean=0.798 16s
+[311/339] C PAIRWISE N=3000 mean=0.796 70s
+[312/339] C PAIRWISE N=3000 mean=0.798 70s
+[313/339] C HYBRID N=3000 mean=0.498 76s
+[314/339] C HYBRID N=3000 mean=0.511 78s
+[315/339] A BCAST N=3000 mean=0.000 227s
+[316/339] A BCAST N=3000 mean=0.000 227s
+[317/339] A BCAST_RC N=3000 mean=0.361 159s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.m["G_sum"] += Gp; self.m["G_n"] += 1; self.m["G_max"] = max(self.m["G_max"], Gp)
+[318/339] A BCAST_RC N=3000 mean=0.355 166s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:732: RuntimeWarning: overflow encountered in scalar add
+  self.m["G_sum"] += Gp; self.m["G_n"] += 1; self.m["G_max"] = max(self.m["G_max"], Gp)
+[319/339] A PAIRWISE N=3000 mean=0.314 24s
+[320/339] A PAIRWISE N=3000 mean=0.318 24s
+[321/339] A AE_INV N=3000 mean=0.281 24s
+[322/339] A AE_INV N=3000 mean=0.283 25s
+367 runs defined, 276 done, 91 to run
+[1/91] A HYBRID N=10 mean=1.000 1s
+[2/91] A HYBRID N=10 mean=1.000 1s
+[3/91] B AE_INV N=500 mean=0.796 1s
+[4/91] A HYBRID N=10 mean=1.000 1s
+[5/91] B AE_INV N=500 mean=0.788 1s
+[6/91] B AE_INV N=500 mean=0.806 1s
+[7/91] B AE_INV N=500 mean=0.800 1s
+[8/91] B AE_INV N=500 mean=0.783 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:834: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:834: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[9/91] B AE_INV N=500 mean=0.806 1s
+[10/91] B AE_INV N=500 mean=0.785 1s
+[11/91] B AE_INV N=500 mean=0.805 1s
+[12/91] B AE_INV N=500 mean=0.777 1s
+[13/91] B AE_INV N=500 mean=0.785 1s
+[14/91] B AE_INV N=500 mean=0.771 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[15/91] B AE_INV N=500 mean=0.780 1s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.sig[r, self.bucket[it]] += self.rkey[it]
+[16/91] E HYBRID N=500 mean=1.000 41s
+[17/91] E HYBRID N=500 mean=1.000 42s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[18/91] E HYBRID N=500 mean=1.000 42s
+[19/91] E HYBRID N=500 mean=0.529 56s
+[20/91] E HYBRID N=500 mean=0.530 56s
+[21/91] E HYBRID N=500 mean=0.522 57s
+[22/91] E HYBRID N=500 mean=0.234 53s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[23/91] E HYBRID N=500 mean=0.238 52s
+[24/91] E HYBRID N=500 mean=0.254 52s
+[25/91] E HYBRID N=500 mean=1.000 42s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[26/91] E HYBRID N=500 mean=1.000 41s
+[27/91] E HYBRID N=500 mean=1.000 42s
+[28/91] E HYBRID N=500 mean=0.876 57s
+[29/91] E HYBRID N=500 mean=0.885 56s
+[30/91] E HYBRID N=500 mean=0.886 57s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[31/91] E HYBRID N=500 mean=0.821 54s
+[32/91] E HYBRID N=500 mean=0.824 54s
+[33/91] E HYBRID N=500 mean=0.818 57s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[34/91] E HYBRID N=500 mean=1.000 42s
+[35/91] E HYBRID N=500 mean=1.000 41s
+[36/91] E HYBRID N=500 mean=1.000 42s
+[37/91] E HYBRID N=500 mean=0.577 57s
+[38/91] E HYBRID N=500 mean=0.574 57s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[39/91] E HYBRID N=500 mean=0.588 58s
+[40/91] E HYBRID N=500 mean=0.491 55s
+[41/91] E HYBRID N=500 mean=0.489 55s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+[42/91] E HYBRID N=500 mean=0.483 56s
+[43/91] E HYBRID N=500 mean=1.000 41s
+[44/91] E HYBRID N=500 mean=1.000 41s
+[45/91] E HYBRID N=500 mean=1.000 43s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:390: RuntimeWarning: overflow encountered in scalar subtract
+  self.prog[r, it] = 0
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:390: RuntimeWarning: overflow encountered in scalar subtract
+  self.prog[r, it] = 0
+[46/91] E HYBRID N=500 mean=0.592 104s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:390: RuntimeWarning: overflow encountered in scalar subtract
+  self.prog[r, it] = 0
+[47/91] E HYBRID N=500 mean=0.600 104s
+[48/91] E HYBRID N=500 mean=0.604 101s
+[49/91] E HYBRID N=500 mean=0.392 121s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:390: RuntimeWarning: overflow encountered in scalar subtract
+  self.prog[r, it] = 0
+[50/91] E HYBRID N=500 mean=0.398 122s
+[51/91] E HYBRID N=500 mean=0.391 124s
+[52/91] E HYBRID N=500 mean=1.000 42s
+[53/91] E HYBRID N=500 mean=1.000 41s
+[54/91] E HYBRID N=500 mean=1.000 42s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:390: RuntimeWarning: overflow encountered in scalar subtract
+  self.prog[r, it] = 0
+[55/91] E HYBRID N=500 ERR ValueError('p < 0, p > 1 or p is NaN') 0s
+[56/91] E HYBRID N=500 mean=0.641 95s
+[57/91] E HYBRID N=500 mean=0.632 98s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:522: RuntimeWarning: overflow encountered in scalar add
+  self.have[r, it] = True
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:390: RuntimeWarning: overflow encountered in scalar subtract
+  self.prog[r, it] = 0
+[58/91] E HYBRID N=500 mean=0.596 97s
+[59/91] E HYBRID N=500 mean=0.602 95s
+[60/91] E HYBRID N=500 mean=0.595 99s
+[61/91] G HYBRID N=1000 mean=0.820 52s
+[62/91] G HYBRID N=1000 mean=0.827 48s
+[63/91] G HYBRID N=1000 mean=0.465 89s
+[64/91] G HYBRID N=1000 mean=0.471 89s
+[65/91] G HYBRID N=1000 mean=0.759 76s
+[66/91] G HYBRID N=1000 mean=0.756 75s
+[67/91] G HYBRID N=1000 mean=0.849 56s
+[68/91] G HYBRID N=1000 mean=0.858 56s
+[69/91] C HYBRID N=3000 mean=1.000 121s
+[70/91] C HYBRID N=3000 mean=1.000 128s
+[71/91] C HYBRID N=3000 mean=1.000 141s
+[72/91] C HYBRID N=3000 mean=1.000 137s
+[73/91] C HYBRID N=3000 mean=0.481 75s
+[74/91] C HYBRID N=3000 mean=0.505 75s
+[75/91] A HYBRID N=3000 mean=0.362 172s
+[76/91] A HYBRID N=3000 mean=0.356 175s
+[77/91] A BCAST_RC N=5000 mean=0.232 177s
+/home/claude/ZEMIZDAT_ARGON/06_simulation/simulator.py:834: RuntimeWarning: overflow encountered in scalar add
+  self.prog[r, it] = self.full
+[78/91] A PAIRWISE N=5000 mean=0.117 18s
+[79/91] A AE_INV N=5000 mean=0.099 19s
+[80/91] A BCAST N=5000 mean=0.000 404s
+[81/91] A HYBRID N=5000 mean=0.197 245s
+377 runs defined, 356 done, 21 to run
+[1/21] H HYBRID N=100 mean=1.000 8s
+[2/21] H HYBRID N=100 mean=1.000 9s
+[3/21] H HYBRID N=100 mean=1.000 9s
+[4/21] H HYBRID N=500 mean=1.000 54s
+[5/21] E HYBRID N=500 ERR ValueError('p < 0, p > 1 or p is NaN') 0s
+[6/21] H HYBRID N=500 mean=1.000 51s
+[7/21] H HYBRID N=500 mean=1.000 52s
+[8/21] H HYBRID N=1000 mean=0.943 116s
+[9/21] H HYBRID N=1000 mean=0.946 116s
+[10/21] H HYBRID N=1000 mean=0.946 114s
+[11/21] H HYBRID N=3000 mean=1.000 140s
+[12/21] H HYBRID N=3000 mean=1.000 143s
+[13/21] C HYBRID N=3000 mean=0.965 458s
+[14/21] C HYBRID N=3000 mean=0.970 465s
+[15/21] C AE_INV N=3000 mean=0.754 20s
+[16/21] C PAIRWISE N=3000 mean=0.714 23s
+[17/21] C BCAST_RC N=3000 mean=0.647 337s
+[18/21] H HYBRID N=3000 mean=0.402 212s
+[19/21] C HYBRID N=3000 mean=0.976 493s
+[20/21] H HYBRID N=3000 mean=0.394 211s
+[21/21] H HYBRID N=5000 mean=0.245 307s

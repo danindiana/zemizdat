@@ -1,0 +1,42 @@
+[
+ {
+  "M": 300,
+  "items_per_bucket": 4.7,
+  "library_size": 184,
+  "buckets_fully_recovered": 64,
+  "free_bits_total": 0,
+  "items_recovered_exactly": 300
+ },
+ {
+  "M": 1000,
+  "items_per_bucket": 15.6,
+  "library_size": 587,
+  "buckets_fully_recovered": 63,
+  "free_bits_total": 1,
+  "items_recovered_exactly": 972
+ },
+ {
+  "M": 2000,
+  "items_per_bucket": 31.2,
+  "library_size": 1205,
+  "buckets_fully_recovered": 12,
+  "free_bits_total": 324,
+  "items_recovered_exactly": 280
+ },
+ {
+  "M": 3000,
+  "items_per_bucket": 46.9,
+  "library_size": 1794,
+  "buckets_fully_recovered": 0,
+  "free_bits_total": 1273,
+  "items_recovered_exactly": 0
+ },
+ {
+  "M": 10000,
+  "items_per_bucket": 156.2,
+  "library_size": 6021,
+  "buckets_fully_recovered": 0,
+  "free_bits_total": 8273,
+  "items_recovered_exactly": 0
+ }
+]
