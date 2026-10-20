@@ -287,6 +287,7 @@ and E6 on ZB-1 confirm the protocol on real radios.
 | `arduino/boards.txt` | board entry for arduino-esp32 |
 | `arduino/variants/zemizdat_zb1/pins_arduino.h` | Arduino variant (pin names, SDMMC defaults, USB IDs) |
 | `firmware/zb1_bringup/` | bring-up sketch + `zm_core.[ch]` copied from `03_protocol/reference_c` |
+| `firmware/zb1_e1_test/` | experiment E1 harness: chained, anonymous extended advertising + SHA-checked reassembly (see its README) |
 | `cad/` | KiCad 7 project (schematic + routed 4-layer PCB), Gerbers/drill/pick-and-place/BOM, STEP model, renders, DRC report, and the scripts that generate all of it |
 | `../../diagrams/11_zb1_block_diagram.*`, `12_zb1_power_tree.*` | diagrams |
 
