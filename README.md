@@ -242,6 +242,7 @@ zemizdat/
 │   └── results/                    their JSON outputs
 ├── 05_hardware/                    UNO R4 WiFi, ESP32-S3, nRF52840, battery, BOM, dev boards
 │   └── zb1/                        ZB-1 board design: spec, pinmap, BOM, Arduino variant, bring-up sketch
+│       └── cad/                    KiCad 7 schematic + routed 4-layer PCB, Gerbers, STEP, renders, generators
 ├── 06_simulation/                  simulator.py, run_experiments.py, analyze.py,
 │                                   tests/, configs/, results/ (runs.jsonl, summary.md, figures)
 ├── 07_adversarial_review/          threat model, 15 counterexamples, failure matrix, mitigations
@@ -320,6 +321,15 @@ Because ESP32-S3 BLE receive costs 93 mA versus 6.26 mA on the nRF52840, the des
 recommends an nRF52840-based ZB-2 for a pocket device.
 
 <img src="diagrams/11_zb1_block_diagram.png" alt="ZB-1 block diagram" width="100%">
+
+The full CAD package is in [`05_hardware/zb1/cad/`](05_hardware/zb1/cad/README.md). It contains:
+
+* a KiCad 7 schematic and a routed 4-layer PCB;
+* Gerbers, drill, pick-and-place and BOM;
+* a STEP model of the assembled board;
+* the scripts that generate all of it from one design database.
+
+<img src="05_hardware/zb1/cad/images/zb1_3d_iso_top.png" alt="ZB-1 3D render" width="100%">
 
 ## 9. Related projects
 

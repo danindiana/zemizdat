@@ -1,0 +1,382 @@
+** Drc report for /home/claude/zemizdat/05_hardware/zb1/cad/build/zb1_fanout.kicad_pcb **
+** Created on 2026-10-19 23:59:28 **
+
+** Found 102 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(110.0000 mm, 111.4000 mm): Reference 'U5'
+    @(109.5150 mm, 111.4300 mm): Reference 'J1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(108.8900 mm, 120.0000 mm): PCB Text '3V' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(129.2100 mm, 120.0000 mm): PCB Text 'NC' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(126.6700 mm, 120.0000 mm): PCB Text 'A4' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(134.2900 mm, 120.0000 mm): PCB Text 'MO' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(131.7500 mm, 120.0000 mm): PCB Text 'SCK' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(144.4500 mm, 120.0000 mm): PCB Text 'NC' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(141.9100 mm, 120.0000 mm): PCB Text 'TX' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(139.3700 mm, 120.0000 mm): PCB Text 'RX' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(136.8300 mm, 120.0000 mm): PCB Text 'MI' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(124.1300 mm, 120.0000 mm): PCB Text 'A3' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(122.1000 mm, 119.1000 mm): PCB Text 'RST' on F.Silkscreen
+    @(122.1500 mm, 118.7000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(119.0500 mm, 120.0000 mm): PCB Text 'A1' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(116.5100 mm, 120.0000 mm): PCB Text 'A0' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(113.9700 mm, 120.0000 mm): PCB Text 'GND' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(111.4300 mm, 120.0000 mm): PCB Text 'NC' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(121.5900 mm, 120.0000 mm): PCB Text 'A2' on F.Silkscreen
+    @(107.6200 mm, 120.2600 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(126.5000 mm, 102.7700 mm): Reference 'LED1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(139.3700 mm, 102.8500 mm): PCB Text '5' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(136.8300 mm, 102.8500 mm): PCB Text '6' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(134.2900 mm, 102.8500 mm): PCB Text '9' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(131.7500 mm, 102.8500 mm): PCB Text '10' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(129.2100 mm, 102.8500 mm): PCB Text '11' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(126.6700 mm, 102.8500 mm): PCB Text '12' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(124.1300 mm, 102.8500 mm): PCB Text '13' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(121.5900 mm, 102.8500 mm): PCB Text 'USB' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(119.0500 mm, 102.8500 mm): PCB Text 'EN' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(119.6000 mm, 102.5500 mm): Reference 'J3'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(144.4500 mm, 102.8500 mm): PCB Text 'SDA' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+    @(141.9100 mm, 102.8500 mm): PCB Text 'SCL' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(126.6700 mm, 102.8500 mm): PCB Text '12' on F.Silkscreen
+    @(126.5000 mm, 102.7700 mm): Reference 'LED1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(119.6500 mm, 116.5000 mm): Reference 'SW1'
+    @(119.8850 mm, 117.0113 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(119.6000 mm, 102.5500 mm): Reference 'J3'
+    @(119.0500 mm, 102.8500 mm): PCB Text 'EN' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(116.5100 mm, 102.8500 mm): PCB Text 'BAT' on F.Silkscreen
+    @(116.5100 mm, 102.6000 mm): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(123.6500 mm, 118.7000 mm): Line on F.Silkscreen
+    @(123.5500 mm, 116.5000 mm): Reference 'SW2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(116.1594 mm, 113.5100 mm): Line on F.Silkscreen
+    @(116.0000 mm, 113.8000 mm): Reference 'Q1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(148.1000 mm, 111.4300 mm): PCB Text 'ANTENNA' on F.Silkscreen
+    @(148.4500 mm, 111.4300 mm): Footprint Text 'Antenna Area' of U1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(104.0000 mm, 102.4000 mm): PCB Text 'CHG' on F.Silkscreen
+    @(104.0000 mm, 102.1700 mm): Reference 'LED2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(133.7500 mm, 110.2000 mm): Circle on B.Silkscreen
+    @(133.1000 mm, 110.0500 mm): Reference 'SJ2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(121.7500 mm, 114.6500 mm): PCB Text 'CUT=I' on B.Silkscreen
+    @(121.7500 mm, 114.5500 mm): Reference 'SJ1'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(133.4500 mm, 115.7500 mm): Reference 'Q2'
+    @(133.3700 mm, 115.4036 mm): Line on B.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(120.4094 mm, 114.3900 mm): Line on B.Silkscreen
+    @(121.7500 mm, 114.6500 mm): PCB Text 'CUT=I' on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(121.7500 mm, 114.6500 mm): PCB Text 'CUT=I' on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(126.0000 mm, 119.1000 mm): PCB Text 'BOOT' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(122.1000 mm, 119.1000 mm): PCB Text 'RST' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(120.6000 mm, 106.3000 mm): PCB Text '+' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(118.6000 mm, 106.3000 mm): PCB Text '-' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(138.0000 mm, 121.0000 mm): PCB Text 'ZB-1 rev0.1 bottom' on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(136.5000 mm, 113.6000 mm): PCB Text 'ZEMIZDAT rev0.1' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(136.5000 mm, 111.4000 mm): PCB Text 'ZB-1' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(119.6500 mm, 116.5000 mm): Reference 'SW1'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(116.0000 mm, 113.8000 mm): Reference 'Q1'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(133.4500 mm, 115.7500 mm): Reference 'Q2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(121.7500 mm, 114.5500 mm): Reference 'SJ1'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(133.1000 mm, 110.0500 mm): Reference 'SJ2'
+[lib_footprint_mismatch]: Footprint 'JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(119.6000 mm, 108.0000 mm): Footprint J3
+[lib_footprint_mismatch]: Footprint 'SOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(112.4000 mm, 111.4000 mm): Footprint U5
+[lib_footprint_mismatch]: Footprint 'SW_Push_1P1T_NO_CK_KMR2' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(126.0000 mm, 116.5000 mm): Footprint SW2
+[lib_footprint_mismatch]: Footprint 'SOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(112.5000 mm, 104.8000 mm): Footprint U2
+[lib_footprint_mismatch]: Footprint 'SW_Push_1P1T_NO_CK_KMR2' does not match copy in library 'Button_Switch_SMD'.
+    Local override; Severity: warning
+    @(122.1000 mm, 116.5000 mm): Footprint SW1
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(116.0000 mm, 116.2000 mm): Footprint Q1
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_HRO_TYPE-C-31-M-12' does not match copy in library 'Connector_USB'.
+    Local override; Severity: warning
+    @(103.8700 mm, 111.4300 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'Crystal_SMD_3215-2Pin_3.2x1.5mm' does not match copy in library 'Crystal'.
+    Local override; Severity: warning
+    @(127.2000 mm, 109.0000 mm): Footprint Y1
+[lib_footprint_mismatch]: Footprint 'SOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(125.6000 mm, 115.0000 mm): Footprint U6
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(125.5000 mm, 109.0000 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'TSSOP-8_4.4x3mm_P0.65mm' does not match copy in library 'Package_SO'.
+    Local override; Severity: warning
+    @(131.0000 mm, 115.7500 mm): Footprint Q2
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(137.9000 mm, 105.0000 mm): Footprint C16
+[lib_footprint_mismatch]: Footprint 'microSD_HC_Hirose_DM3AT-SF-PEJM5' does not match copy in library 'Connector_Card'.
+    Local override; Severity: warning
+    @(108.1300 mm, 111.4300 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    Local override; Severity: warning
+    @(127.7500 mm, 111.4500 mm): Footprint C13
+[lib_footprint_mismatch]: Footprint 'JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical' does not match copy in library 'Connector_JST'.
+    Local override; Severity: warning
+    @(138.4500 mm, 116.7500 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm' does not match copy in library 'Package_DFN_QFN'.
+    Local override; Severity: warning
+    @(135.0000 mm, 105.0000 mm): Footprint U7
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(128.1000 mm, 112.6000 mm): Footprint R23
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; Severity: warning
+    @(121.7500 mm, 112.7500 mm): Footprint SJ1
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; Severity: warning
+    @(131.3000 mm, 110.0500 mm): Footprint SJ2
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    Local override; Severity: warning
+    @(128.5500 mm, 115.3500 mm): Footprint R24
+[lib_footprint_mismatch]: Footprint 'SOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(119.5000 mm, 107.0000 mm): Footprint U4
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(149.3000 mm, 122.8600 mm): Line on Edge.Cuts
+    @(105.0200 mm, 122.9200 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(149.3000 mm, 122.8600 mm): Line on Edge.Cuts
+    @(107.6200 mm, 122.9200 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(149.3000 mm, 122.8600 mm): Line on Edge.Cuts
+    @(145.7800 mm, 122.9200 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(150.8000 mm, 101.5000 mm): Line on Edge.Cuts
+    @(150.8000 mm, 103.7300 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(150.8000 mm, 101.5000 mm): Line on Edge.Cuts
+    @(150.8000 mm, 103.7300 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(150.8000 mm, 101.5000 mm): Line on Edge.Cuts
+    @(150.8000 mm, 119.1300 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(150.8000 mm, 101.5000 mm): Line on Edge.Cuts
+    @(150.9500 mm, 119.2800 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(101.5000 mm, 100.0000 mm): Line on Edge.Cuts
+    @(117.7800 mm, 102.6000 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(101.5000 mm, 100.0000 mm): Line on Edge.Cuts
+    @(145.7800 mm, 102.6000 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(101.8700 mm, 106.7300 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(99.9700 mm, 106.7300 mm): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(101.8700 mm, 116.1300 mm): Line on F.Silkscreen
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(101.2050 mm, 118.2550 mm): Pad 11 [GND] of J2 on B.Cu
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; Severity: error
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(100.7550 mm, 104.7550 mm): Pad 11 [GND] of J2 on B.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(99.7450 mm, 117.3750 mm): Line on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(99.7450 mm, 115.5150 mm): Line on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(100.0950 mm, 115.3050 mm): Line on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(99.7450 mm, 108.4250 mm): Line on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(99.7450 mm, 106.1150 mm): Line on B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(100.0000 mm, 121.3600 mm): Line on Edge.Cuts
+    @(99.9450 mm, 105.9150 mm): Line on B.Silkscreen
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(106.3500 mm, 121.5900 mm): Footprint J5
+    @(148.2600 mm, 120.3200 mm): Footprint H4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(138.0000 mm, 111.4300 mm): Footprint U1
+    @(148.2600 mm, 120.3200 mm): Footprint H4
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(138.0000 mm, 111.4300 mm): Footprint U1
+    @(148.2600 mm, 102.5400 mm): Footprint H3
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; Severity: error
+    @(116.5100 mm, 101.2700 mm): Footprint J6
+    @(148.2600 mm, 102.5400 mm): Footprint H3
+[items_not_allowed]: Items not allowed (keepout area 'antenna keepout')
+    Rule: keepout area 'antenna keepout'; Severity: error
+    @(148.2600 mm, 120.3200 mm): Footprint H4
+[items_not_allowed]: Items not allowed (keepout area 'antenna keepout')
+    Rule: keepout area 'antenna keepout'; Severity: error
+    @(148.2600 mm, 102.5400 mm): Footprint H3
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

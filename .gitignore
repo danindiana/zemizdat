@@ -2,3 +2,9 @@ __pycache__/
 .pytest_cache/
 *.pyc
 03_protocol/reference_c/test_zm_core
+# KiCad: intermediate routing boards/attempts and per-user state
+05_hardware/zb1/cad/build/
+*.kicad_prl
+*-backups/
+fp-info-cache
+05_hardware/zb1/cad/logs/

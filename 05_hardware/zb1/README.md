@@ -11,7 +11,8 @@ uses the Feather form factor (50.8 × 22.86 mm) and is programmable from the Ard
 ![ZB-1 block diagram](../../diagrams/11_zb1_block_diagram.png)
 
 > **Status.** This is a design, not a tested board. The bring-up firmware compiles for this
-> board definition (see §9). No PCB has been laid out, fabricated or measured.
+> board definition (see §9). A complete KiCad 7 schematic, routed 4-layer PCB, fab outputs and
+> 3D model are in [`cad/`](cad/README.md). Nothing has been fabricated or measured.
 > * Prices marked *estimate* have not been quoted.
 > * Every battery-life figure is arithmetic on datasheet currents.
 > * Experiment E6 must replace those figures with measurements before anyone relies on them.
@@ -102,7 +103,8 @@ current, so E6 still has to measure the real figure.
 
 ## 5. Schematic description (per sheet)
 
-The schematic is described as text so it can be entered in KiCad 8. No KiCad files exist yet.
+The schematic is summarised here as text. The full KiCad 7 schematic generated from it is
+[`cad/zb1.kicad_sch`](cad/zb1.kicad_sch) ([PDF](cad/docs/zb1_schematic.pdf)).
 
 **Sheet 1 — USB and power**
 * USB-C J1: VBUS → polyfuse-free (the charger limits current) → D1 anode and BQ21040 IN, with 1 µF.
@@ -285,6 +287,7 @@ and E6 on ZB-1 confirm the protocol on real radios.
 | `arduino/boards.txt` | board entry for arduino-esp32 |
 | `arduino/variants/zemizdat_zb1/pins_arduino.h` | Arduino variant (pin names, SDMMC defaults, USB IDs) |
 | `firmware/zb1_bringup/` | bring-up sketch + `zm_core.[ch]` copied from `03_protocol/reference_c` |
+| `cad/` | KiCad 7 project (schematic + routed 4-layer PCB), Gerbers/drill/pick-and-place/BOM, STEP model, renders, DRC report, and the scripts that generate all of it |
 | `../../diagrams/11_zb1_block_diagram.*`, `12_zb1_power_tree.*` | diagrams |
 
 ### Sources

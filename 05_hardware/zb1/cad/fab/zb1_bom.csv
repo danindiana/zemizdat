@@ -1,0 +1,50 @@
+Qty,References,Value,Footprint,MPN / description,Populate
+3,C1 C6 C11,10uF,C_0603_1608Metric,10uF X5R/X7R,yes
+1,C12,4.7nF,C_0402_1005Metric,4.7nF X5R/X7R,yes
+2,C14 C7,100nF,C_0402_1005Metric,100nF X5R/X7R,yes
+1,C2,4.7uF,C_0603_1608Metric,4.7uF X5R/X7R,yes
+2,C3 C5,22uF,C_0805_2012Metric,22uF X5R/X7R,yes
+3,C4 C15 C10,1uF,C_0402_1005Metric,1uF X5R/X7R,yes
+2,C8 C9,18pF,C_0402_1005Metric,18pF C0G,yes
+1,D1,B5819W,D_SOD-123,B5819W SOD-123,yes
+1,J1,USB-C,USB_C_Receptacle_HRO_TYPE-C-31-M-12,HRO TYPE-C-31-M-12,yes
+1,J2,microSD push-push,microSD_HC_Hirose_DM3AT-SF-PEJM5,Hirose DM3AT-SF-PEJM5,yes
+1,J3,BATT JST-PH,JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical,JST B2B-PH-SM4-TB,yes
+1,J4,STEMMA-QT,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,JST BM04B-SRSS-TB,yes
+1,J5,Feather 16,PinHeader_1x16_P2.54mm_Vertical,1x16 2.54mm header (ship loose),yes
+1,J6,Feather 12,PinHeader_1x12_P2.54mm_Vertical,1x12 2.54mm header (ship loose),yes
+1,LED1,USER red,LED_0603_1608Metric,red 0603 LED,yes
+1,LED2,CHG orange,LED_0603_1608Metric,orange 0603 LED,yes
+1,Q1,DMG3415U,SOT-23,Diodes DMG3415U-7,yes
+2,R1 R2,5.1k,R_0402_1005Metric,5.1k 1% 0402,yes
+1,R15,33,R_0402_1005Metric,33 1% 0402,yes
+2,R18 R19,4.7k,R_0402_1005Metric,4.7k 1% 0402,yes
+1,R20,2.2k,R_0402_1005Metric,2.2k 1% 0402,yes
+1,R21,1k,R_0402_1005Metric,1k 1% 0402,yes
+4,R22 R8 R5 R6,1M,R_0402_1005Metric,1M 1% 0402,yes
+1,R3,1.07k,R_0402_1005Metric,1.07k 1% 0402,yes
+1,R4,10k,R_0402_1005Metric,10k 1% (or 10k NTC on the cell),yes
+3,R7 R17 R16,100k,R_0402_1005Metric,100k 1% 0402,yes
+7,R9 R25 R10 R11 R12 R13 R14,10k,R_0402_1005Metric,10k 1% 0402,yes
+1,SJ1,I_MEAS,SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,(PCB) cut to measure current,yes
+1,SJ2,PROT bypass,SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,(PCB) cut if U6/Q2 fitted,yes
+1,SW1,RESET,SW_Push_1P1T_NO_CK_KMR2,C&K KMR221GLFS,yes
+1,SW2,BOOT,SW_Push_1P1T_NO_CK_KMR2,C&K KMR221GLFS,yes
+1,TP1,TP_EN,TestPoint_Pad_D1.0mm,(PCB),yes
+1,TP2,VBAT,TestPoint_Pad_D1.0mm,(PCB),yes
+1,TP3,VSYS,TestPoint_Pad_D1.0mm,(PCB),yes
+1,TP4,3V3,TestPoint_Pad_D1.0mm,(PCB),yes
+1,TP5,GND,TestPoint_Pad_D1.0mm,(PCB),yes
+1,U1,ESP32-S3-MINI-1-N8,ESP32-S3-MINI-1,Espressif ESP32-S3-MINI-1-N8,yes
+1,U2,BQ21040DBVR,SOT-23-6,TI BQ21040DBVR,yes
+1,U3,RT9080-33GJ5,SOT-23-5,Richtek RT9080-33GJ5,yes
+1,U4,TPS22917DBVR,SOT-23-6,TI TPS22917DBVR,yes
+1,U5,USBLC6-2SC6,SOT-23-6,ST USBLC6-2SC6,yes
+1,Y1,32.768kHz 12.5pF,Crystal_SMD_3215-2Pin_3.2x1.5mm,Epson FC-135 32.768kHz 12.5pF,yes
+1,C13,100nF,C_0402_1005Metric,100nF X5R/X7R,DNP
+1,C16,1uF,C_0402_1005Metric,1uF X5R/X7R,DNP
+1,Q2,FS8205A,TSSOP-8_4.4x3mm_P0.65mm,Fortune FS8205A,DNP
+1,R23,100,R_0402_1005Metric,100 1% 0402,DNP
+1,R24,2k,R_0402_1005Metric,2k 1% 0402,DNP
+1,U6,DW01A,SOT-23-6,Fortune DW01A,DNP
+1,U7,MAX17048G+T10,TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm,Analog Devices MAX17048G+T10,DNP

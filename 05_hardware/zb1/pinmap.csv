@@ -2,7 +2,7 @@ gpio,module_pin_function,zb1_net,arduino_name,direction,notes
 0,strap BOOT,BTN_BOOT,ZB1_BTN_BOOT,in,BOOT/user button to GND; 10k pull-up; held at reset = download mode; held at sketch start = LISTEN role
 1,ADC1_CH0 / TOUCH1,A4,A4,io,header
 2,ADC1_CH1,VBAT_SENSE,ZB1_VBAT_SENSE,in (analog),VBAT via 1M/1M divider + 100nF; ADC1 so it works while the radio runs
-3,strap JTAG source,NC,,-,strapping pin with no internal pull; left unconnected with 10k to GND footprint (DNP)
+3,strap JTAG source,NC,,-,strapping pin with no internal pull; not connected (JTAG source then follows the eFuse default)
 4,ADC1_CH3,A0,A0,io,header
 5,ADC1_CH4,A1,A1,io,header
 6,ADC1_CH5,A2,A2,io,header
@@ -24,9 +24,9 @@ gpio,module_pin_function,zb1_net,arduino_name,direction,notes
 26,GPIO (free on -N8 only),SD_DETECT,ZB1_SD_DETECT,in,socket card-detect switch to GND; 100k pull-up to 3V3; on -N4R2 modules IO26 is PSRAM: do not substitute
 33,GPIO,D11,D11,io,header
 34,GPIO,D12,D12,io,header
-35,GPIO,NC,,-,spare (test pad TP35)
-36,GPIO,NC,,-,spare (test pad TP36)
-37,GPIO,NC,,-,spare (test pad TP37)
+35,GPIO,NC,,-,spare; not connected on rev 0.1 (octal-PSRAM pins on other module variants)
+36,GPIO,NC,,-,spare; not connected on rev 0.1 (octal-PSRAM pins on other module variants)
+37,GPIO,NC,,-,spare; not connected on rev 0.1 (octal-PSRAM pins on other module variants)
 38,GPIO,D10 / SS,D10,io,header
 39,GPIO (MTCK),D6,D6,io,header
 40,GPIO (MTDO),D9,D9,io,header

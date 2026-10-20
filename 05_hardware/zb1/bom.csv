@@ -11,8 +11,8 @@ Q1,1,DMG3415U,SOT-23,P-MOSFET load-sharing power path (battery -> VSYS when USB 
 D1,1,B5819W (or SS14),SOD-123,Schottky VBUS -> VSYS,0.03,estimate,yes
 J1,1,USB-C 16-pin receptacle (USB 2.0),SMD mid-mount,power + native USB,0.25,estimate,yes
 J2,1,microSD push-push socket with card-detect,SMD,storage archive (SDSC/SDHC/SDXC),0.30,estimate,yes
-J3,1,JST PH 2-pin right-angle,SMD,LiPo battery,0.05,estimate,yes
-J4,1,JST SH 4-pin (STEMMA-QT/Qwiic),SMD,I2C expansion,0.10,estimate,yes
+J3,1,JST PH 2-pin vertical (B2B-PH-SM4-TB),SMD,LiPo battery (top entry; side entry does not fit beside USB-C),0.06,estimate,yes
+J4,1,JST SH 4-pin vertical (BM04B-SRSS-TB; STEMMA-QT/Qwiic),SMD,I2C expansion (bottom side),0.10,estimate,yes
 J5/J6,2,1x16 and 1x12 2.54 mm headers,TH,Feather headers,0.20,estimate,ship loose
 Y1,1,32.768 kHz crystal 12.5 pF,3215,BLE low-power clock,0.15,estimate,yes
 SW1/SW2,2,tactile switch 3x4 mm,SMD,RESET and BOOT,0.04,estimate,yes

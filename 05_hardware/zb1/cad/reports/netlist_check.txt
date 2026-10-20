@@ -1,0 +1,2 @@
+components: 69 (design 69); designed pin connections: 264; nets: 57
+OK: schematic netlist matches the design database exactly
