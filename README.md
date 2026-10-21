@@ -15,7 +15,7 @@ nothing but Bluetooth broadcasts from cheap battery-powered devices.**
 ![c99](https://img.shields.io/badge/C-C99%2C%20zero%20heap-A8B9CC?logo=c&logoColor=white)
 ![sim runs](https://img.shields.io/badge/simulation%20runs-377-blueviolet)
 ![fuzz](https://img.shields.io/badge/fuzzed%20frames-2M%20(ASan%2FUBSan)-success)
-![license](https://img.shields.io/badge/license-TBD-lightgrey)
+[![license: Apache-2.0 / CERN-OHL-P-2.0 / CC-BY-4.0](https://img.shields.io/badge/license-Apache--2.0%20%7C%20CERN--OHL--P--2.0%20%7C%20CC--BY--4.0-blue)](LICENSING.md)
 [![last commit](https://img.shields.io/github/last-commit/danindiana/zemizdat)](https://github.com/danindiana/zemizdat/commits/main)
 [![repo size](https://img.shields.io/github/repo-size/danindiana/zemizdat)](https://github.com/danindiana/zemizdat)
 [![stars](https://img.shields.io/github/stars/danindiana/zemizdat?style=social)](https://github.com/danindiana/zemizdat/stargazers)
@@ -408,8 +408,16 @@ All diagrams are in [`diagrams/`](diagrams) as editable Graphviz `.dot`, plus `.
 * **Status:** pre-prototype. The architecture verdict is *conditional proceed*, pending hardware
   experiments E1 (link), E5 (congestion and rate control), E6 (energy) and E7 (power cuts on
   real flash).
-* **Licence:** *not yet chosen.* Until a `LICENSE` file is added, the default copyright rules
-  apply and others may not legally reuse the code.
+* **Licence:** open source, © 2026 Benjamin W. Denio, licensed in three permissive parts.
+  [`LICENSING.md`](LICENSING.md) says which paths each covers.
+
+  | Part | Licence |
+  |---|---|
+  | Code | [Apache-2.0](LICENSES/Apache-2.0.txt) |
+  | ZB-1 hardware design | [CERN-OHL-P-2.0](LICENSES/CERN-OHL-P-2.0.txt) |
+  | Documentation, diagrams, data | [CC-BY-4.0](LICENSES/CC-BY-4.0.txt) |
+
+  The Espressif module footprint and 3D model keep their own CC-BY-SA 4.0 licence (see [`NOTICE`](NOTICE)).
 * **Provenance:** produced in October 2026 by Benjamin with Claude (Anthropic) acting as
   research and engineering assistant, from the ZEMIZDAT-ARGON-1.0 brief. Datasheet facts were
   fetched and cited at the time; prices are point-in-time retail observations.

@@ -1,0 +1,17 @@
+ZEMIZDAT
+Copyright 2026 Benjamin W. Denio
+
+This repository is licensed in three parts (see LICENSING.md for which paths fall under which):
+  * software        Apache License 2.0                         LICENSES/Apache-2.0.txt
+  * hardware design CERN Open Hardware Licence v2 - Permissive LICENSES/CERN-OHL-P-2.0.txt
+  * documentation   Creative Commons Attribution 4.0           LICENSES/CC-BY-4.0.txt
+
+Third-party material included in this repository:
+  * 05_hardware/zb1/cad/lib/zb1.pretty/ESP32-S3-MINI-1.kicad_mod and
+    05_hardware/zb1/cad/lib/3dmodels/ESP32-S3-MINI-1.STEP
+    from espressif/kicad-libraries (https://github.com/espressif/kicad-libraries),
+    Copyright Espressif Systems, licensed CC-BY-SA 4.0 with the KiCad libraries' design
+    exception (designs using these files are not "Adapted Material"). They remain under that
+    licence; see 05_hardware/zb1/cad/lib/ATTRIBUTION.md.
+
+Produced with the assistance of Claude (Anthropic).

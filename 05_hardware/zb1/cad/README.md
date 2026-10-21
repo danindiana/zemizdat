@@ -11,6 +11,14 @@ board can be rebuilt and every number below re-checked.
 
 ![ZB-1 3D render, top](images/zb1_3d_iso_top.png)
 
+> **Licence:**
+> * The ZB-1 hardware design is © 2026 Benjamin W. Denio under the
+>   [CERN Open Hardware Licence v2 – Permissive](../../../LICENSES/CERN-OHL-P-2.0.txt).
+> * The generator scripts in `scripts/` are under [Apache-2.0](../../../LICENSES/Apache-2.0.txt).
+> * The Espressif module footprint and STEP model keep their CC-BY-SA 4.0 licence ([`lib/ATTRIBUTION.md`](lib/ATTRIBUTION.md)).
+>
+> If you modify the design and share it, say so in your copy (CERN-OHL-P §3.3).
+
 > **Status: design files, not a proven board.** Nothing here has been fabricated, assembled or
 > powered. The layout was placed by script and routed by an autorouter. DRC results are reported
 > honestly in §5, including the items that still need a human. A qualified layout review is
